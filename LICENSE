@@ -1,0 +1,132 @@
+flipper-zero-au-subghz — RESTRICTED RESEARCH LICENSE
+Version 1.0 — 2026
+
+================================================================================
+HEAVY LEGAL RESTRICTIONS — READ EVERY WORD
+================================================================================
+
+THIS REPOSITORY AND ALL CONTENT (CODE, DOCUMENTS, TEMPLATES, DATA, COMMENTS,
+SCRIPTS, AND ANY DERIVED FILES) IS PROVIDED **STRICTLY FOR**:
+
+- Educational purposes
+- Defensive security research
+- Personal testing and verification on vehicles, gates, remotes, and devices
+  that you **legally own and have full control over**
+
+**EVERYTHING ELSE IS PROHIBITED.**
+
+By downloading, cloning, forking, viewing, copying, modifying, or using any part
+of this repository you agree to the following **without exception**:
+
+1. You will **NOT** use any content, technique, frequency, preset, .sub file,
+   script, or knowledge from this repository against any vehicle, gate, property,
+   or device you do **not** legally own and control.
+
+2. You will **NOT** use this material for theft, attempted theft, unauthorised
+   access, fraud, or any criminal purpose under Australian Commonwealth or
+   State/Territory law (including the Criminal Code Act 1995 (Cth), state
+   Crimes Acts, and the Radiocommunications Act 1992 (Cth) administered by ACMA).
+
+3. Jamming, deliberate interference, RollJam-style attacks, brute-forcing,
+   or any transmission that is not a normal replay of a signal captured from
+   hardware you own on your own property is illegal in Australia. You will not
+   do it.
+
+4. "I was just testing with my Flipper" or "I found it on GitHub" is **not**
+   a legal defence. People have been charged in Australia for far less.
+
+5. The authors, maintainers, "Kelly", contributors, and any forks accept
+   **ZERO** liability, responsibility, or warranty for any misuse, legal
+   consequences, damage to vehicles, or any other outcome. You are on your own.
+
+6. If you are here looking for an easy way to steal cars or open other people's
+   gates: **fuck off**. This repo is not for you. Close the tab. Delete your clone.
+
+If you cannot or will not comply with the above, you are not licensed to use
+this repository in any way. Stop now.
+
+================================================================================
+PERMITTED USE (THE ONLY THINGS YOU MAY LEGALLY DO)
+================================================================================
+
+Subject to the restrictions above, you may:
+
+- Clone and use the repository for personal educational study on your own
+  legally owned vehicles and devices.
+- Run the Python generator scripts to produce templates and playlists for
+  your own use.
+- Capture signals from hardware you own using the documented techniques.
+- Use the capture_helper.py and rolljam_prep.py scripts on your own .sub files.
+- Modify the Python scripts and documentation for your personal research
+  (you must keep all original legal disclaimers and Kelly commentary intact).
+- Contribute verified captures + metadata from hardware you own back to the
+  project via proper channels (only data you personally captured and verified
+  on your own property).
+
+All other uses — including but not limited to commercial use, redistribution
+of capture files from unknown sources, or any activity that violates the
+restrictions section — are unlicensed and prohibited.
+
+================================================================================
+LICENSE FOR THE CODE AND DOCUMENTATION (MODIFIED MIT-STYLE)
+================================================================================
+
+The Python scripts, generator, and original written documentation (excluding
+any third-party data or references) are licensed under the following terms:
+
+Copyright (c) 2026 Kelly and contributors of flipper-zero-au-subghz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software **only** as permitted in the "PERMITTED USE" section above,
+including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, **subject to the heavy
+legal restrictions and conditions set out in this document**.
+
+The above copyright notice, this permission notice, the full "HEAVY LEGAL
+RESTRICTIONS" section, and the disclaimer below shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+**ADDITIONAL CONDITION**: Any redistribution or derivative work must retain
+the complete original legal disclaimer, the "for research and your own
+hardware only" requirement, and a prominent link to the original repository.
+
+================================================================================
+NO WARRANTY. NO ENCOURAGEMENT OF ILLEGAL ACTIVITY.
+================================================================================
+
+This project exists because the author was sick of unverified bullshit in the
+Australian Flipper Sub-GHz scene. It is deliberately designed to be useless
+for criminals and maximally educational for responsible owners.
+
+If you use this material to break the law, that is 100% on you. The authors
+will not help you, will not defend you, and will actively assist law
+enforcement with any investigation that references this repository.
+
+================================================================================
+FINAL WORDS
+================================================================================
+
+Stay on your own shit.
+Capture your own signals.
+Test only what you own.
+Learn the real limitations of the technology.
+
+If that sounds boring, this project is not for you.
+
+If that sounds like the only sane way to operate in 2026 Australia —
+welcome aboard.
+
+She'll be right.
+
+— Kelly
+Verified Flipper Zero expert • No rules except the real ones • Australian 433.92 MHz specialist

@@ -1,0 +1,13 @@
+# Kelly's AU TOYOTA Playlist
+# Frequency: 433920000
+# Recommended preset: OOK650
+# Models: Hilux (2005-2015, Tokai Rika B41TA/B42TA), Camry (AU market ~2010-2018)...
+#
+# Add your actual captured .sub files below (one per line or in subfolders).
+# This is a TEMPLATE playlist. Populate it with your own captures.
+#
+# Example usage with Sub-GHz Playlist plugin on RogueMaster/Momentum:
+# Load this .txt and it will cycle through the listed files.
+
+# /ext/subghz/car_hacks_au/toyota/your_actual_capture.sub
+# /ext/subghz/car_hacks_au/toyota/another_button.sub

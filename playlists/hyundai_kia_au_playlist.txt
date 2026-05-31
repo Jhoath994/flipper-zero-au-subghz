@@ -1,0 +1,13 @@
+# Kelly's AU HYUNDAI_KIA Playlist
+# Frequency: 433920000
+# Recommended preset: 2FSKDev476
+# Models: Hyundai i30 (GD 2012-2017, PD 2017+), Tucson (LM, TL)...
+#
+# Add your actual captured .sub files below (one per line or in subfolders).
+# This is a TEMPLATE playlist. Populate it with your own captures.
+#
+# Example usage with Sub-GHz Playlist plugin on RogueMaster/Momentum:
+# Load this .txt and it will cycle through the listed files.
+
+# /ext/subghz/car_hacks_au/hyundai_kia/your_actual_capture.sub
+# /ext/subghz/car_hacks_au/hyundai_kia/another_button.sub

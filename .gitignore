@@ -1,0 +1,106 @@
+# Kelly's .gitignore for flipper-zero-au-subghz
+#
+# This repo is for education + your own verified captures on hardware you own.
+# Real key fob/gate captures often contain sensitive timing data that some people
+# prefer to keep private. This .gitignore helps you avoid accidentally committing
+# them to public history.
+#
+# Adjust to taste. The important bit is: don't commit other people's cars.
+
+# ============================================================================
+# REAL CAPTURES — the big one
+# ============================================================================
+# Any actual .sub files captured from real key fobs or remotes.
+# Templates and generated skeletons are fine to keep.
+# If you really want to commit your own verified captures (with good metadata),
+# you can git add -f them or remove/adjust these lines.
+
+# car_hacks_au brand folders — YOUR captures only live here
+car_hacks_au/**/*.sub
+car_hacks_au/*.sub
+
+# Any loose captures people might drop in root, playlists, scripts, etc.
+*.sub
+
+# But keep the example/template .sub files that the generator produces
+!fcc_research/generated/*_template.sub
+!templates/**/*.sub
+
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ============================================================================
+# Testing / temp artefacts from the helper scripts
+# ============================================================================
+scripts/test_*/
+scripts/test_*.sub
+scripts/test_*.txt
+rolljam_prep_notes_*.txt
+*.tmp
+*.temp
+
+# ============================================================================
+# OS junk
+# ============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ============================================================================
+# IDE / editor
+# ============================================================================
+.idea/
+.vscode/
+*.sublime-*
+
+# ============================================================================
+# Optional: generated outputs
+# If you regenerate a lot and don't want the .txt/.sub templates in git,
+# uncomment the next line. Most people keep them because they are useful
+# skeletons with Kelly's comments baked in.
+# fcc_research/generated/
+
+# ============================================================================
+# Notes from Kelly
+# ============================================================================
+# - The car_hacks_au/ folders are documented as "for YOUR captures only".
+#   The .gitignore above makes that safer for public forks.
+# - If you're contributing a verified capture back to the repo, you will
+#   usually need to force-add it or temporarily comment the *.sub rules.
+# - Personal notes files, ProtoPirate exports, URH sessions etc. are your
+#   business — feel free to add more ignore patterns for your workflow.
+#
+# Deadset: better to have too many ignores than to leak your own fob timings
+# into a public git history by accident.
+#
+# She'll be right.
+# — Kelly

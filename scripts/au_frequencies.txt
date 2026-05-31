@@ -1,0 +1,55 @@
+# Kelly's Verified Australian 433.92 MHz Sub-GHz Frequencies
+# flipper-zero-au-subghz
+#
+# Simple reference export pulled straight from the AU_VEHICLES database
+# and generate_settings_user() logic in fcc_research/fcc_au_car_data.py
+#
+# NO made-up numbers. Every frequency here is either the documented core
+# for the 10 brands or the explicit additions the generator produces for
+# settings_user.txt
+#
+# Use these in custom firmware settings_user.txt and when tuning your
+# Sub-GHz app. 433.92 MHz (433920000) is the money band for AU cars & gates.
+#
+# Reference: fcc_research/fcc_au_car_data.py lines ~200-209 (settings)
+#            and the per-brand frequency_hz: 433920000 entries.
+
+# ============================================================================
+# CORE AU BAND (all 10 brands in AU_VEHICLES target this)
+# ============================================================================
+433920000   # 433.92 MHz — THE standard for Toyota Hilux B41TA/B42TA, Ford Ranger, Holden VF, Hyundai/Kia, Mazda, Mitsubishi Triton, Nissan Navara, Subaru, Isuzu D-Max, VW Amarok, and most AU gates (ATA, B&D, Elsema etc.)
+
+# ============================================================================
+# RECOMMENDED NEARBY FREQUENCIES (from generator --generate-settings)
+# These catch crystal drift, some variant modules, and older gate gear.
+# ============================================================================
+433820000   # 433.82 MHz
+433920000   # (repeated for clarity — main one)
+434020000   # 434.02 MHz
+434420000   # 434.42 MHz
+
+# ============================================================================
+# EXTRA AU-RELEVANT (also emitted by the generator)
+# Common in some gates, industrial, and older key fobs sold in Australia.
+# ============================================================================
+433075000   # 433.075 MHz
+433775000   # 433.775 MHz
+434775000   # 434.775 MHz
+
+# ============================================================================
+# KELLY NOTES
+# ============================================================================
+# - Always start with 433920000 + the recommended preset from the brand
+#   entry in fcc_au_car_data.py (OOK650 vs 2FSKDev476 is the big one).
+# - Add the full list above to your custom firmware settings_user.txt
+#   (run the generator --generate-settings to get the ready-made block).
+# - Wrong frequency = zero range or total garbage, even with a perfect capture.
+# - 433.92 is ISM in Australia. Other bands (315, 868, 915) are not relevant
+#   for the vehicles documented in this repo.
+#
+# Generated from the single source of truth: the Python generator.
+# If you find verified AU hardware on a different freq that actually works
+# on real cars, contribute it back to the AU_VEHICLES dict with receipts.
+#
+# She'll be right when you use the right frequencies on your own gear.
+# — Kelly
