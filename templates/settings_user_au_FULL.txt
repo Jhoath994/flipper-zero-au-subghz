@@ -1,0 +1,48 @@
+# ============================================================
+# Kelly's FULL AU 433.92 MHz settings_user.txt
+# Generated: 2026-06-01T06:13:23.267193
+# For RogueMaster / Momentum / Unleashed / Xtreme
+# This is the heavy version - more opinionated, more useful.
+# ============================================================
+
+[subghz]
+
+# === CORE AUSTRALIAN 433.92 MHz BAND ===
+# These are the bread and butter frequencies for cars & gates in Australia.
+frequency = 433820000
+frequency = 433920000
+frequency = 434020000
+frequency = 434420000
+
+# === EXTENDED AU GATE + OLDER CAR FREQS ===
+frequency = 433075000
+frequency = 433775000
+frequency = 434775000
+
+# === CUSTOM PRESETS (THE IMPORTANT BIT) ===
+# The ASK vs FSK trap fucks more people than anything else.
+# Copy these or create custom presets in your firmware.
+
+# Good for Toyota Hilux, older Ranger, Holden VF, Triton, D-Max, BT-50, most gates
+Custom_preset_name = AU_OOK_Car
+Custom_preset_data = 02 0D 0B 06 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+# Critical for Hyundai/Kia 2015+, later Rangers, VW Amarok, some Jeeps
+Custom_preset_name = AU_FSK_Car
+Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+# Kelly's notes on the above:
+# - OOK version is tuned for narrow-ish bandwidth good for many simple key fobs.
+# - FSK version targets ~47-48kHz deviation which is commonly effective on Korean + VW group.
+# - Always start with the recommended preset in the brand notes before going custom.
+
+# === PROTOCOLS (optional but handy) ===
+# protocol = Princeton
+# protocol = CAME
+# protocol = Nice FLO
+
+# Pro move: After adding these frequencies + presets, go outside.
+# Capture your own shit from 8-12 metres away. Multiple presses. RAW first.
+# Then and only then start thinking about replay or more advanced work.
+
+# This file is for educational / research use on hardware you legally own.

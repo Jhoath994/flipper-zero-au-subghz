@@ -152,6 +152,66 @@ AU_VEHICLES = {
         "deviation_notes": "VW group keys frequently FSK. OOK preset will miss them.",
         "fcc_refs": ["VW 433 MHz AU spec"],
         "capture_tips": "Amarok is the German ute king in Australia. Worth the effort."
+    },
+    "mazda_bt50": {
+        "models": ["BT-50 (UP/UR 2011-2020, TF 2020+)", "Often shares platform with Ranger in some years"],
+        "frequency_hz": 433920000,
+        "common_modulation": "Mix - many ASK on earlier, FSK later",
+        "recommended_preset": "OOK650",
+        "alternative_presets": ["2FSKDev476", "Custom"],
+        "deviation_notes": "BT-50 keys are very common in AU. Test OOK first on pre-2018 models.",
+        "fcc_refs": ["Mazda 433.92 modules"],
+        "capture_tips": "Extremely popular dual-cab in Australia. High value target for playlists."
+    },
+    "great_wall_cannon": {
+        "models": ["Cannon (2019+)", "Cannon-X, Vanta, etc."],
+        "frequency_hz": 433920000,
+        "common_modulation": "Mostly ASK/OOK reported",
+        "recommended_preset": "OOK650",
+        "alternative_presets": ["Custom"],
+        "deviation_notes": "Chinese utes flooding the AU market. Many use straightforward OOK key fobs.",
+        "fcc_refs": ["Great Wall / Haval 433.92 AU spec"],
+        "capture_tips": "Rapidly growing in popularity. Worth adding to your collection early."
+    },
+    "ldv_t60": {
+        "models": ["T60 (2017+ AU)", "T60 Trailrider, Luxe"],
+        "frequency_hz": 433920000,
+        "common_modulation": "ASK/OOK dominant on most reported",
+        "recommended_preset": "OOK650",
+        "alternative_presets": ["Custom"],
+        "deviation_notes": "Budget Chinese ute with decent key fob implementation for subghz work.",
+        "fcc_refs": ["LDV 433.92 MHz"],
+        "capture_tips": "Common on worksites. Good for practice captures."
+    },
+    "suzuki": {
+        "models": ["Jimny (2018+)", "Vitara, S-Cross, Swift (some AU years)"],
+        "frequency_hz": 433920000,
+        "common_modulation": "Mostly ASK/OOK",
+        "recommended_preset": "OOK650",
+        "alternative_presets": ["Custom"],
+        "deviation_notes": "Jimny keys are small and popular. Generally cooperative with standard OOK.",
+        "fcc_refs": ["Suzuki 433.92"],
+        "capture_tips": "Jimny cult following in Australia. Easy to find examples."
+    },
+    "jeep": {
+        "models": ["Wrangler (JK 2007-2018, JL 2018+ some)", "Grand Cherokee (WK2, WL some variants)"],
+        "frequency_hz": 433920000,
+        "common_modulation": "Mix - older ASK, newer often FSK",
+        "recommended_preset": "OOK650",
+        "alternative_presets": ["2FSKDev476", "Custom"],
+        "deviation_notes": "Jeep keys vary wildly by year and market. Always capture and test both presets.",
+        "fcc_refs": ["FCA / Jeep 433.92 AU"],
+        "capture_tips": "4x4 community loves them. Some older Wranglers are surprisingly open."
+    },
+    "honda": {
+        "models": ["CR-V (RM 2012-2016, RW 2017+)", "HR-V, Civic (some AU years)"],
+        "frequency_hz": 433920000,
+        "common_modulation": "Primarily ASK/OOK",
+        "recommended_preset": "OOK650",
+        "alternative_presets": ["Custom"],
+        "deviation_notes": "Honda keys in this range are usually solid OOK performers.",
+        "fcc_refs": ["Honda 433.92 AU market"],
+        "capture_tips": "Very common family SUVs. Reliable for learning the distance technique."
     }
 }
 
@@ -227,6 +287,65 @@ def generate_settings_user(output_path: Path, include_all: bool = True):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text("\n".join(lines), encoding="utf-8")
     print(f"[+] Generated settings_user additions -> {output_path}")
+    return output_path
+
+
+def generate_full_settings_user(output_path: Path):
+    """Generate a much more complete, production-ready settings_user.txt for AU work."""
+    lines = []
+    lines.append("# ============================================================")
+    lines.append("# Kelly's FULL AU 433.92 MHz settings_user.txt")
+    lines.append(f"# Generated: {datetime.now().isoformat()}")
+    lines.append("# For RogueMaster / Momentum / Unleashed / Xtreme")
+    lines.append("# This is the heavy version - more opinionated, more useful.")
+    lines.append("# ============================================================")
+    lines.append("")
+    lines.append("[subghz]")
+    lines.append("")
+    lines.append("# === CORE AUSTRALIAN 433.92 MHz BAND ===")
+    lines.append("# These are the bread and butter frequencies for cars & gates in Australia.")
+    lines.append("frequency = 433820000")
+    lines.append("frequency = 433920000")
+    lines.append("frequency = 434020000")
+    lines.append("frequency = 434420000")
+    lines.append("")
+    lines.append("# === EXTENDED AU GATE + OLDER CAR FREQS ===")
+    lines.append("frequency = 433075000")
+    lines.append("frequency = 433775000")
+    lines.append("frequency = 434775000")
+    lines.append("")
+    lines.append("# === CUSTOM PRESETS (THE IMPORTANT BIT) ===")
+    lines.append("# The ASK vs FSK trap fucks more people than anything else.")
+    lines.append("# Copy these or create custom presets in your firmware.")
+    lines.append("")
+    lines.append("# Good for Toyota Hilux, older Ranger, Holden VF, Triton, D-Max, BT-50, most gates")
+    lines.append("Custom_preset_name = AU_OOK_Car")
+    lines.append("Custom_preset_data = 02 0D 0B 06 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00")
+    lines.append("")
+    lines.append("# Critical for Hyundai/Kia 2015+, later Rangers, VW Amarok, some Jeeps")
+    lines.append("Custom_preset_name = AU_FSK_Car")
+    lines.append("Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00")
+    lines.append("")
+    lines.append("# Kelly's notes on the above:")
+    lines.append("# - OOK version is tuned for narrow-ish bandwidth good for many simple key fobs.")
+    lines.append("# - FSK version targets ~47-48kHz deviation which is commonly effective on Korean + VW group.")
+    lines.append("# - Always start with the recommended preset in the brand notes before going custom.")
+    lines.append("")
+    lines.append("# === PROTOCOLS (optional but handy) ===")
+    lines.append("# protocol = Princeton")
+    lines.append("# protocol = CAME")
+    lines.append("# protocol = Nice FLO")
+    lines.append("")
+    lines.append("# Pro move: After adding these frequencies + presets, go outside.")
+    lines.append("# Capture your own shit from 8-12 metres away. Multiple presses. RAW first.")
+    lines.append("# Then and only then start thinking about replay or more advanced work.")
+    lines.append("")
+    lines.append("# This file is for educational / research use on hardware you legally own.")
+    lines.append("")
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text("\n".join(lines), encoding="utf-8")
+    print(f"[+] Generated FULL settings_user.txt -> {output_path}")
     return output_path
 
 
@@ -319,7 +438,9 @@ def main():
         description="Kelly's Verified AU Flipper Zero 433.92 MHz Car & Gate Generator"
     )
     parser.add_argument("--generate-settings", action="store_true",
-                        help="Generate settings_user.txt additions")
+                        help="Generate settings_user.txt additions (light version)")
+    parser.add_argument("--full-settings", action="store_true",
+                        help="Generate a more complete, ready-to-use settings_user.txt with heavy Kelly commentary")
     parser.add_argument("--brand", type=str,
                         help="Brand key (toyota, ford_ranger, etc.) for .sub template")
     parser.add_argument("--output", type=str, default="sub",
@@ -344,6 +465,9 @@ def main():
     if args.generate_settings:
         generate_settings_user(generated / "settings_user_au_additions.txt")
 
+    if args.full_settings:
+        generate_full_settings_user(generated / "settings_user_au_FULL.txt")
+
     if args.brand:
         if args.output in ("sub", "both"):
             generate_sub_template(args.brand, generated)
@@ -353,10 +477,11 @@ def main():
     if args.playlist:
         generate_playlist(args.playlist, generated)
 
-    if not any([args.generate_settings, args.brand, args.playlist, args.list_brands]):
+    if not any([args.generate_settings, args.full_settings, args.brand, args.playlist, args.list_brands]):
         parser.print_help()
-        print("\nQuick start example:")
+        print("\nQuick start examples:")
         print("  python fcc_au_car_data.py --generate-settings")
+        print("  python fcc_au_car_data.py --full-settings")
         print("  python fcc_au_car_data.py --brand toyota --output both")
         print("  python fcc_au_car_data.py --playlist all")
 
