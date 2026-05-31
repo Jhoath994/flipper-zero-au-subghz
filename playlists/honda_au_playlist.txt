@@ -1,0 +1,13 @@
+# Kelly's AU HONDA Playlist
+# Frequency: 433920000
+# Recommended preset: OOK650
+# Models: CR-V (RM 2012-2016, RW 2017+), HR-V, Civic (some AU years)...
+#
+# Add your actual captured .sub files below (one per line or in subfolders).
+# This is a TEMPLATE playlist. Populate it with your own captures.
+#
+# Example usage with Sub-GHz Playlist plugin on RogueMaster/Momentum:
+# Load this .txt and it will cycle through the listed files.
+
+# /ext/subghz/car_hacks_au/honda/your_actual_capture.sub
+# /ext/subghz/car_hacks_au/honda/another_button.sub
