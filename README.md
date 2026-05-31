@@ -1,16 +1,16 @@
 # 🔓 flipper-zero-au-subghz
 
-**Kelly's Legendary No-Bullshit Australian Sub-GHz Car & Gate Arsenal for Flipper Zero**
+**The Aussie UberGuidoZ — Australia's Best Flipper Zero Attack Research Collection**
 
-*Deadset the most verified, honest, and useful collection for 433.92 MHz AU market key fobs and remotes. No magic. No fake codes. No "download and unlock any car" bullshit.*
+*Built in the spirit of UberGuidoZ's legendary repo, but 100% focused on Australian conditions, devices, laws, and targets. Sub-GHz cars & gates is the flagship. We go way beyond that.*
 
-**"If it ain't traceable to an FCC filing or real capture, it ain't in here, mate." — Kelly**
+**"If it ain't traceable to real research or your own verified captures, it ain't in here, mate." — Kelly**
 
 ---
 
 ## ⚠️ HEAVY LEGAL DISCLAIMER — READ THIS OR GET FUCKED, MATE
 
-**THIS IS NOT A THEFT TOOLKIT. THIS IS NOT A "HACK ANY CAR" REPO. THIS IS EDUCATION AND PERSONAL RESEARCH ONLY.**
+**THIS IS NOT A THEFT TOOLKIT. THIS IS NOT A "HACK ANYTHING" REPO. THIS IS EDUCATION, RED TEAM RESEARCH, AND PERSONAL DEFENSIVE WORK ONLY.**
 
 By using, cloning, copying, or even glancing at the files in this repository you agree to the following, no exceptions:
 
@@ -30,25 +30,32 @@ If not — this is the last friendly warning you'll get from this README.
 
 ---
 
-## What This Repo Is (And What It Absolutely Is Not)
+## What This Repo Is (The Aussie UberGuidoZ Vision)
 
-This is the Australian 433.92 MHz focused Sub-GHz collection every serious Flipper user in AU has been waiting for.
+This is Australia's answer to the big international Flipper collections — but tuned for here.
+
+We cover the attack vectors that actually matter on this side of the world:
+
+- **car_hacks_au/** — Deep, verified 433.92 MHz Sub-GHz work on Australian utes, cars, and gates (the current flagship, with generator + pro capture guides).
+- **ibutton_au/** — Dallas 1-Wire / iButton. Massive in Australian trucking, depots, rural gates, and workshops.
+- **rfid_au/** — 125kHz RFID. Still everywhere in apartments, warehouses, carparks, and worksites.
+- **badusb_au/** — HID attacks with Australian social engineering focus (MyGov, NBN, ATO, tradie lures, etc.).
+- **wifi_au/** — Evil portals targeting Telstra, Optus, NBN, Aussie Broadband, hotels, etc.
+- **nfc_au/**, **ir_au/** — Coming as we build it out.
 
 **What it delivers:**
-- Verified frequency, modulation, and preset data for **10 major Australian-market vehicle brands** plus gates/garage openers, all centred on the 433.92 MHz ISM band that actually matters here.
-- Professional, scalable folder structure (`car_hacks_au/`) modelled directly on the gold standards: kakuzu-f0/Automotive-Sub-Ghz-Collection and UberGuidoZ collections.
-- A battle-tested Python generator script (`fcc_research/fcc_au_car_data.py`) that produces clean, metadata-rich `.sub` templates, Sub-GHz Playlist files, and custom firmware `settings_user.txt` additions.
-- Pro-level capture technique education based on real testing (not YouTube hype).
-- Pre-generated playlists and templates ready for you to populate with **your own verified captures**.
-- Honest commentary on what actually works, what is hard, and what is complete dogshit.
+- High-signal, low-bullshit research focused on Australian devices and environments.
+- Professional structure (UberGuidoZ / kakuzu-f0 inspired).
+- Tools (like the Sub-GHz generator) that actually help you in the field.
+- Honest commentary on what works, what doesn't, and the legal reality.
+- Everything populated with **your own verified work** — not random Telegram dumps.
 
 **What you will NOT find here:**
-- Pre-baked working codes for any car that isn't yours.
-- "Universal" unlock files (they don't exist for modern rolling code vehicles).
-- Made-up frequencies, invented protocols, or fantasy data.
-- Encouragement or instructions for illegal activity.
+- Pre-made "unlock any car" files.
+- Fantasy data or unverified claims.
+- Encouragement for illegal activity.
 
-We call out crap data. Everything is traceable or generated from the included verified database. If something looks sus, it gets fixed or removed.
+This is the repo every serious Australian Flipper user should have. Quality over quantity. Australia-specific. No wank.
 
 ---
 
