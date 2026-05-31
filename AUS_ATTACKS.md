@@ -4,15 +4,24 @@ The goal is simple:
 
 Build the best, most practical, most Australia-focused Flipper Zero attack research collection on the planet — in the spirit of UberGuidoZ's legendary repo, but tuned for Australian conditions, laws, devices, and targets.
 
-## Current Modules
+## Current Modules (June 2026)
 
-- **car_hacks_au/** — The flagship. Deep 433.92 MHz Sub-GHz research for Australian vehicles and gates (Toyota, Ranger, Hilux, BT-50, Hyundai/Kia, etc.). Includes the powerful generator script.
-- **ibutton_au/** — Dallas 1-Wire / iButton attacks. Extremely high value in Australian trucking, depots, and rural properties.
-- **rfid_au/** — 125kHz RFID. Still everywhere in apartments, warehouses, carparks, and worksites.
-- **badusb_au/** — HID / BadUSB attacks with Australian social engineering focus.
-- **wifi_au/** — Evil portals and WiFi attacks targeting common Australian ISPs and environments.
-- **nfc_au/** — (Coming) MIFARE, NTAG, and other NFC work relevant to AU access control and public transport.
-- **ir_au/** — (Coming) Infrared for air conditioners, some gates, and older devices still common in Australia.
+**Flagship**
+- **car_hacks_au/** — Deepest public 433.92 MHz Sub-GHz research for Australian vehicles and gates. Includes the powerful generator. The crown jewel.
+
+**High-Value AU Vectors**
+- **ibutton_au/** — Dallas 1-Wire. Massive in trucking, depots, rural gates, workshops, and machinery.
+- **rfid_au/** — 125kHz. Still everywhere in apartments, warehouses, carparks, and construction.
+- **badusb_au/** — Australian social engineering + HID payloads (NBN, AusPost, ATO, tradie lures).
+- **wifi_au/** — Evil portals for Telstra, Optus, NBN, Aussie Broadband, hotels, etc.
+
+**Emerging**
+- **nfc_au/** — MIFARE/NTAG work on Australian systems.
+- **ir_au/** — Infrared for older gates, aircons, and AV gear still common here.
+
+**Meta**
+- **research/** — Long-form Australian field reports and system breakdowns.
+- **fcc_research/** — The generator and verified data engine.
 
 ## Philosophy
 
