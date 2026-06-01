@@ -1,0 +1,32 @@
+# AU Gates Fixed-Code Playlist
+# These are the highest-probability files for direct replay
+# Fixed-code CAME, Princeton, Nice FLO, PT2260, SMC5326, Linear
+# 27 files
+#
+/ext/subghz/car_hacks_au/gates/ata_garage_43392_princeton_24bit.sub
+/ext/subghz/car_hacks_au/gates/bd_doors_43392_came_12bit.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_001.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_002.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_003.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_004.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_005.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_0FF.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_100.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_1FF.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_3FF.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_7FF.sub
+/ext/subghz/car_hacks_au/gates/came_bruteforce_FFF.sub
+/ext/subghz/car_hacks_au/gates/centurion_elsema_43392_princeton_24bit.sub
+/ext/subghz/car_hacks_au/gates/generic_chinese_43392_pt2260_24bit.sub
+/ext/subghz/car_hacks_au/gates/generic_chinese_43392_smc5326_25bit.sub
+/ext/subghz/car_hacks_au/gates/linear_fixed_43392_8bit.sub
+/ext/subghz/car_hacks_au/gates/nice_flo_43392_12bit.sub
+/ext/subghz/car_hacks_au/gates/nice_flo_bruteforce_001.sub
+/ext/subghz/car_hacks_au/gates/nice_flo_bruteforce_0FF.sub
+/ext/subghz/car_hacks_au/gates/nice_flo_bruteforce_FFF.sub
+/ext/subghz/car_hacks_au/gates/princeton_common_addr_000001.sub
+/ext/subghz/car_hacks_au/gates/princeton_common_addr_000100.sub
+/ext/subghz/car_hacks_au/gates/princeton_common_addr_100000.sub
+/ext/subghz/car_hacks_au/gates/princeton_common_addr_555555.sub
+/ext/subghz/car_hacks_au/gates/princeton_common_addr_AAAAAA.sub
+/ext/subghz/car_hacks_au/gates/princeton_common_addr_FFFFFF.sub

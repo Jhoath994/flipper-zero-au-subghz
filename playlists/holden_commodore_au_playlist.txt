@@ -1,13 +1,9 @@
-# Kelly's AU HOLDEN_COMMODORE Playlist
-# Frequency: 433920000
-# Recommended preset: OOK650
-# Models: VF Commodore (2013-2017 AU), VF Calais, SS, etc....
+# AU Holden Commodore Playlist
+# Flipper Sub-GHz Playlist Plugin Compatible
+# Frequency: 433920000 (433.92 MHz)
+# Files: 4
 #
-# Add your actual captured .sub files below (one per line or in subfolders).
-# This is a TEMPLATE playlist. Populate it with your own captures.
-#
-# Example usage with Sub-GHz Playlist plugin on RogueMaster/Momentum:
-# Load this .txt and it will cycle through the listed files.
-
-# /ext/subghz/car_hacks_au/holden_commodore/your_actual_capture.sub
-# /ext/subghz/car_hacks_au/holden_commodore/another_button.sub
+/ext/subghz/car_hacks_au/holden_commodore/vf_calais_2014_keeloq_ook650.sub
+/ext/subghz/car_hacks_au/holden_commodore/vf_commodore_2013_keeloq_ook650.sub
+/ext/subghz/car_hacks_au/holden_commodore/vf_commodore_ook650_keeloq.sub
+/ext/subghz/car_hacks_au/holden_commodore/vf_ss_2015_keeloq_ook650.sub

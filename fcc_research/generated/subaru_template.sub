@@ -1,0 +1,31 @@
+Filetype: Flipper SubGhz RAW File
+Version: 1
+# Brand: subaru
+# Models: Forester (SJ 2013-2018, SK 2018+), XV, Outback (AU variants)
+# Frequency: 433920000 Hz (433.92 MHz AU standard)
+# Common modulation: Mix, many ASK on older, FSK later
+# Recommended starting preset: OOK650
+# 
+# DEVIATION / PRESET WARNING (Kelly says read this):
+# Forester keys vary by year. OOK works on plenty of them.
+#
+# FCC / source refs: Subaru 433.92
+#
+# CAPTURE INSTRUCTIONS:
+# 1. Stand 5-15 metres away from the vehicle.
+# 2. Capture multiple button presses with 2-3 second gaps.
+# 3. For rolling code cars: the first capture is often useless for replay.
+#    You need timing + distance technique or multiple captures.
+# 4. Save as RAW first, then try decoding.
+#
+# This is a TEMPLATE. Replace RAW_Data with your actual capture.
+# Do NOT use this file as-is on any vehicle.
+
+Frequency: 433920000
+Protocol: RAW
+Preset: OOK650
+# If the above preset gives poor results, try one of these in your firmware:
+# 2FSKDev476
+
+# Paste your captured RAW_Data lines below after a real capture
+# RAW_Data: <your data here>

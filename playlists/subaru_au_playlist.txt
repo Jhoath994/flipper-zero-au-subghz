@@ -1,13 +1,67 @@
-# Kelly's AU SUBARU Playlist
-# Frequency: 433920000
-# Recommended preset: OOK650
-# Models: Forester (SJ 2013-2018, SK 2018+), XV, Outback (AU variants)...
+# AU Subaru Playlist
+# Flipper Sub-GHz Playlist Plugin Compatible
+# Frequency: 433920000 (433.92 MHz)
+# Files: 62
 #
-# Add your actual captured .sub files below (one per line or in subfolders).
-# This is a TEMPLATE playlist. Populate it with your own captures.
-#
-# Example usage with Sub-GHz Playlist plugin on RogueMaster/Momentum:
-# Load this .txt and it will cycle through the listed files.
-
-# /ext/subghz/car_hacks_au/subaru/your_actual_capture.sub
-# /ext/subghz/car_hacks_au/subaru/another_button.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_000000.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_022222.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_044444.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_066666.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_088888.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_0AAAAA.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_0CCCCC.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_0EEEEE.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_111110.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook320_133332.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_000000.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_011111.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_022222.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_033333.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_044444.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_055555.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_066666.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_077777.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_088888.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_099999.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_0AAAAA.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_0BBBBB.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_0CCCCC.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_0DDDDD.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_0EEEEE.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_0FFFFF.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_111110.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_122221.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_133332.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_144443.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_155554.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_166665.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_177776.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_188887.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_199998.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_1AAAA9.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_1BBBBA.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_1CCCCB.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_1DDDDC.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_1EEEED.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_1FFFFE.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_21110F.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_222220.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_233331.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_244442.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_255553.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_266664.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_277775.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_288886.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_299997.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_2AAAA8.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_2BBBB9.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_2CCCCA.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_2DDDDB.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_2EEEEC.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_2FFFFD.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_31110E.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_32221F.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_333330.sub
+/ext/subghz/car_hacks_au/subaru/forester_02_08_fixed_ook650_344441.sub
+/ext/subghz/car_hacks_au/subaru/forester_2002_2008_fixed_ook650_a269zua111.sub
+/ext/subghz/car_hacks_au/subaru/forester_sj_ook650_keeloq.sub

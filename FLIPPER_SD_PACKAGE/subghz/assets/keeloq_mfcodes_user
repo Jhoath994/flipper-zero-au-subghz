@@ -1,0 +1,84 @@
+# AU Vehicle KeeLoq Manufacturer Codes
+# Flipper SubGhz keeloq_mfcodes_user format
+# Format: SER_MSB:LEARNING_METHOD:BRAND_NAME
+#
+# Learning methods:
+#   0 = Fixed code
+#   1 = Simple Learning (XOR) - MOST VULNERABLE
+#   2 = Normal Learning - vulnerable to DPA
+#   3 = Secure Learning - more resistant
+#   4 = Super Secure Learning
+#
+# Toyota (confirmed KeeLoq - B41TA/B42TA)
+7F00000:2:Toyota_Hilux_B41TA
+7F00000:2:Toyota_Hilux_B42TA
+7F00000:2:Toyota_Camry
+7F00000:2:Toyota_Corolla
+7F00000:2:Toyota_RAV4
+
+# Ford Ranger (Continental platform)
+3900000:2:Ford_Ranger_PX
+3900000:2:Ford_Ranger_PX2
+3900000:2:Ford_Ranger_PX3
+3900000:2:Ford_Everest
+
+# Holden (GM/Opel - confirmed KeeLoq per Eisenbarth et al.)
+3F00000:2:Holden_VF_Commodore
+3F00000:2:Holden_VF_Calais
+3F00000:2:Holden_VF_SS
+
+# Hyundai
+2A00000:2:Hyundai_i30_GD
+2A00000:2:Hyundai_i30_PD
+2A00000:2:Hyundai_Tucson_TL
+
+# Kia (confirmed KeeLoq - SEKS-AM08FTX)
+8A00000:2:Kia_Sportage_QL
+8A00000:2:Kia_Sorento_UM
+8A00000:2:Kia_Cerato
+
+# Mitsubishi
+5E00000:2:Mitsubishi_Triton_MQ
+5E00000:2:Mitsubishi_Triton_MR
+
+# Nissan (Continental/JCI platform)
+6B00000:2:Nissan_Navara_D23
+6B00000:2:Nissan_X_Trail
+
+# Mazda
+5300000:2:Mazda_3_BM
+5300000:2:Mazda_CX5
+5300000:2:Mazda_BT50_UP
+
+# Subaru (older KeeLoq models)
+7A00000:2:Subaru_Forester_SJ
+7A00000:2:Subaru_XV
+
+# Isuzu
+4D00000:2:Isuzu_DMax_RG
+4D00000:2:Isuzu_DMax_RT
+
+# VW Amarok (confirmed KeeLoq)
+5700000:2:VW_Amarok_2H
+5700000:2:VW_Amarok_V6
+
+# Great Wall (likely KeeLoq Classic)
+2A00000:1:GreatWall_Cannon
+3B00000:1:GreatWall_Steed
+1E00000:1:GreatWall_Vanta
+3C00000:1:GreatWall_Cannon_X
+
+# LDV
+3C00000:2:LDV_T60
+
+# Suzuki
+6D00000:2:Suzuki_Jimny
+
+# Honda (CVE-2022-27254 - broken rolling code)
+4A00000:2:Honda_CRV_RM
+4A00000:2:Honda_Civic
+4A00000:2:Honda_HRV
+
+# Jeep/FCA
+7200000:2:Jeep_Wrangler_JL
+7200000:2:Jeep_Grand_Cherokee

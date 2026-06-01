@@ -1,13 +1,9 @@
-# Kelly's AU FORD_RANGER Playlist
-# Frequency: 433920000
-# Recommended preset: 2FSKDev476
-# Models: Ranger PX/PX2/PX3 (2011-2024 AU market), Everest (some shared)...
+# AU Ford Ranger Playlist
+# Flipper Sub-GHz Playlist Plugin Compatible
+# Frequency: 433920000 (433.92 MHz)
+# Files: 4
 #
-# Add your actual captured .sub files below (one per line or in subfolders).
-# This is a TEMPLATE playlist. Populate it with your own captures.
-#
-# Example usage with Sub-GHz Playlist plugin on RogueMaster/Momentum:
-# Load this .txt and it will cycle through the listed files.
-
-# /ext/subghz/car_hacks_au/ford_ranger/your_actual_capture.sub
-# /ext/subghz/car_hacks_au/ford_ranger/another_button.sub
+/ext/subghz/car_hacks_au/ford_ranger/everest_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/ford_ranger/ranger_px2_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/ford_ranger/ranger_px3_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/ford_ranger/ranger_raw_template_2fsk.sub

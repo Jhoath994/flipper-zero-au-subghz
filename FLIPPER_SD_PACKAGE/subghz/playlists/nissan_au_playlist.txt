@@ -1,0 +1,6 @@
+# AU Nissan Playlist
+# Flipper Sub-GHz Playlist Plugin Compatible
+# Frequency: 433920000 (433.92 MHz)
+# Files: 1
+#
+/ext/subghz/car_hacks_au/nissan/navara_d23_ook650_keeloq.sub

@@ -1,0 +1,13 @@
+# AU Hyundai Kia Playlist
+# Flipper Sub-GHz Playlist Plugin Compatible
+# Frequency: 433920000 (433.92 MHz)
+# Files: 8
+#
+/ext/subghz/car_hacks_au/hyundai_kia/cerato_2014_keeloq_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/hyundai_kia/hyundai_raw_template_2fsk.sub
+/ext/subghz/car_hacks_au/hyundai_kia/i30_pd_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/hyundai_kia/sorento_um_2013_keeloq_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/hyundai_kia/sorento_um_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/hyundai_kia/sportage_ql_2012_keeloq_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/hyundai_kia/sportage_ql_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/hyundai_kia/tucson_tl_2fsk_keeloq.sub

@@ -1,0 +1,41 @@
+# AU Great Wall Cannon Playlist
+# Flipper Sub-GHz Playlist Plugin Compatible
+# Frequency: 433920000 (433.92 MHz)
+# Files: 36
+#
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_2019_keeloq_mf1E_ook650.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_2019_keeloq_mf2A_ook650.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_2019_keeloq_mf3B_ook650.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_2019_ook650_keeloq.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_000000.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_001111.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_002222.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_003333.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_004444.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_005555.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_006666.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_007777.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_008888.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_009999.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_00AAAA.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_00BBBB.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_00CCCC.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_00DDDD.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_00EEEE.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_00FFFF.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_011110.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_012221.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_013332.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_014443.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_015554.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_016665.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_017776.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_018887.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_019998.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_01AAA9.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_01BBBA.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_01CCCB.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_01DDDC.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/cannon_pre2020_fixed_ook650_01EEED.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/steed_2016_keeloq_mf2A_ook650.sub
+/ext/subghz/car_hacks_au/great_wall_cannon/vanta_2020_keeloq_mf3C_ook650.sub

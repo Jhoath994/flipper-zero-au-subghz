@@ -1,0 +1,9 @@
+# AU Ford Ranger Playlist
+# Flipper Sub-GHz Playlist Plugin Compatible
+# Frequency: 433920000 (433.92 MHz)
+# Files: 4
+#
+/ext/subghz/car_hacks_au/ford_ranger/everest_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/ford_ranger/ranger_px2_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/ford_ranger/ranger_px3_2fsk_keeloq.sub
+/ext/subghz/car_hacks_au/ford_ranger/ranger_raw_template_2fsk.sub

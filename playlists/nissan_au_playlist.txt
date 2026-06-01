@@ -1,13 +1,6 @@
-# Kelly's AU NISSAN Playlist
-# Frequency: 433920000
-# Recommended preset: OOK650
-# Models: Navara D23 (NP300 2015+), X-Trail, Qashqai (some AU)...
+# AU Nissan Playlist
+# Flipper Sub-GHz Playlist Plugin Compatible
+# Frequency: 433920000 (433.92 MHz)
+# Files: 1
 #
-# Add your actual captured .sub files below (one per line or in subfolders).
-# This is a TEMPLATE playlist. Populate it with your own captures.
-#
-# Example usage with Sub-GHz Playlist plugin on RogueMaster/Momentum:
-# Load this .txt and it will cycle through the listed files.
-
-# /ext/subghz/car_hacks_au/nissan/your_actual_capture.sub
-# /ext/subghz/car_hacks_au/nissan/another_button.sub
+/ext/subghz/car_hacks_au/nissan/navara_d23_ook650_keeloq.sub
