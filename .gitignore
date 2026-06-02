@@ -27,6 +27,46 @@ car_hacks_au/*.sub
 !templates/**/*.sub
 
 # ============================================================================
+# GENERATED / RESEARCH FILES — allowed through the blanket *.sub block above
+# ============================================================================
+# These are generated template/research files, NOT real fob captures.
+# Real captures from your own hardware should be added with: git add -f <file>
+
+# Subaru Forester fixed-code research collection
+!car_hacks_au/subaru/forester_fixed/**/*.sub
+
+# ATA gate research files  
+!car_hacks_au/gates/ata_gates/**/*.sub
+
+# Brand-specific generated research templates (fixed code, KeeLoq counter sequences)
+!car_hacks_au/ford_ranger/**/*.sub
+!car_hacks_au/holden_commodore/**/*.sub
+!car_hacks_au/honda/**/*.sub
+!car_hacks_au/isuzu_dmax/**/*.sub
+!car_hacks_au/jeep/**/*.sub
+!car_hacks_au/ldv_t60/**/*.sub
+!car_hacks_au/mazda/**/*.sub
+!car_hacks_au/mazda_bt50/**/*.sub
+!car_hacks_au/mitsubishi/**/*.sub
+!car_hacks_au/nissan/**/*.sub
+!car_hacks_au/suzuki/**/*.sub
+!car_hacks_au/vw_amarok/**/*.sub
+!car_hacks_au/hyundai_kia/**/*.sub
+!car_hacks_au/toyota/**/*.sub
+!car_hacks_au/great_wall_cannon/**/*.sub
+!car_hacks_au/gates/*.sub
+
+# Keys directory (top fixed codes)
+!car_hacks_au/keys/**/*.sub
+
+# FLIPPER_SD_PACKAGE (pre-structured for deployment)
+!FLIPPER_SD_PACKAGE/**/*.sub
+
+# Playlists
+!playlists/**/*.txt
+!FLIPPER_SD_PACKAGE/**/playlists/**/*.txt
+
+# ============================================================================
 # Python
 # ============================================================================
 __pycache__/

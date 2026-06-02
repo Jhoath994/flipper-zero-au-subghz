@@ -1,0 +1,7 @@
+Filetype: Flipper SubGhz RAW File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPreset2FSKDev476Async
+Protocol: RAW
+# RAW_Data: <paste captured VW Amarok FSK data here>
+# Example: RAW_Data: 123 -45 678 -90 345 ...

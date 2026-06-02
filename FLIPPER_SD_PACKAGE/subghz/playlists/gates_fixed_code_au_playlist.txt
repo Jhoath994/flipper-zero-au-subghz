@@ -1,9 +1,22 @@
-# AU Gates Fixed-Code Playlist
-# These are the highest-probability files for direct replay
-# Fixed-code CAME, Princeton, Nice FLO, PT2260, SMC5326, Linear
-# 27 files
-#
+# AU Gates - Fixed code gate openers
+# Generated: 2026-06-02 | 42 entries
+
 /ext/subghz/car_hacks_au/gates/ata_garage_43392_princeton_24bit.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000001_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000002_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000003_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000004_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000005_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000006_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000007_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000008_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000009_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_00000A_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000010_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000020_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000050_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000100_ook650.sub
+/ext/subghz/car_hacks_au/gates/ata_gates/ata_princeton_000200_ook650.sub
 /ext/subghz/car_hacks_au/gates/bd_doors_43392_came_12bit.sub
 /ext/subghz/car_hacks_au/gates/came_bruteforce_001.sub
 /ext/subghz/car_hacks_au/gates/came_bruteforce_002.sub

@@ -1,0 +1,10 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 433920000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: KeeLoq
+Bit: 64
+Key: 7F 00 00 00 7F B2 C1 00
+TE: 380
+Mfcode: 7F00000
+Counter: 0
