@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-JESSE's Capture Helper - Practical organiser for YOUR verified Sub-GHz captures.
-
+Jesse's Capture Helper - Practical organiser for YOUR verified Sub-GHz captures.
 flipper-zero-au-subghz
 
-Deadset, the number of people who end up with 47 files named "new.sub", "capture1.sub",
+genuinely, the number of people who end up with 47 files named "new.sub", "capture1.sub",
 and "flipper (2).sub" on their desktop is criminal. This script fixes that.
 
 Features:
@@ -18,8 +17,7 @@ This script is file hygiene only. It does NOT transmit, does NOT replay, does NO
 generate codes, does NOT do anything illegal. It just helps you keep your own
 captures organised like a pro.
 
-JESSE rules:
-- Only ever run this on captures you made yourself from hardware YOU OWN.
+Jesse rules:- Only ever run this on captures you made yourself from hardware YOU OWN.
 - Always verify replay works on the actual vehicle before trusting the file.
 - If the header validation screams at you, go back and re-capture properly.
 
@@ -28,7 +26,7 @@ Usage examples:
     python scripts/capture_helper.py --batch-dir "today_captures/" --brand ford_ranger --year 2021 --button unlock --dry-run
     python scripts/capture_helper.py --input "gate_ata.sub" --brand gates --year 2020 --button open --date 2026-04-15
 
-She'll be right if you use it properly on your own gear.
+you will be fine if you use it properly on your own gear.
 """
 
 import argparse
@@ -44,7 +42,7 @@ from typing import Optional, List, Dict, Tuple
 # JESSE'S .sub VALIDATION
 # ============================================================================
 # We only check the basics that every real Flipper SubGhz RAW file must have.
-# This catches the most common fuckups (empty files, wrong exports, text notes
+# This catches the most common mistakes (empty files, wrong exports, text notes
 # renamed to .sub, etc.). It is NOT a full protocol parser.
 
 REQUIRED_HEADER_MARKERS = [
@@ -61,8 +59,7 @@ RECOMMENDED_MARKERS = [
 
 def validate_sub_file(filepath: Path, strict: bool = False) -> Tuple[bool, List[str]]:
     """
-    JESSE's quick and dirty .sub header validator.
-
+    Jesse's quick and dirty .sub header validator.
     Returns (is_valid, list_of_warnings_or_errors)
 
     Looks for the minimum markers a real capture from the Flipper must have.
@@ -136,8 +133,7 @@ def build_new_filename(
     preset: Optional[str] = None,
 ) -> str:
     """
-    JESSE's recommended naming scheme for captures.
-
+    Jesse's recommended naming scheme for captures.
     Example outputs:
         toyota_2012_lock_2026-05-31.sub
         ford_ranger_2021_unlock_8m_2fskdev476_2026-05-30.sub
@@ -238,8 +234,7 @@ def process_capture(
 
     Returns a dict with results or None on fatal failure.
     """
-    print(f"\n[JESSE] Processing: {input_path}")
-
+    print(f"\n[Jesse] Processing: {input_path}")
     is_valid, issues = validate_sub_file(input_path, strict=strict_validation)
 
     for issue in issues:
@@ -247,8 +242,7 @@ def process_capture(
         print(f"  [{prefix}] {issue}")
 
     if not is_valid and strict_validation:
-        print("  [JESSE] Strict mode: refusing to touch this file until you fix the header. Re-capture it properly, mate.")
-        return None
+        print("  [Jesse] Strict mode: refusing to touch this file until you fix the header. Re-capture it properly, mate.")        return None
 
     # Try to auto-detect preset for naming if user didn't supply one
     detected_preset = extract_preset_from_sub(input_path)
@@ -271,8 +265,7 @@ def process_capture(
 
     if dest_path.exists():
         print(f"  [WARNING] Destination already exists: {dest_path}")
-        print("  [JESSE] Not overwriting. Rename the existing one first or use a more specific --button/--date.")
-        return None
+        print("  [Jesse] Not overwriting. Rename the existing one first or use a more specific --button/--date.")        return None
 
     playlist_entry = f"/ext/subghz/car_hacks_au/{target_folder_name}/{new_filename}"
 
@@ -295,8 +288,7 @@ def process_capture(
     try:
         shutil.move(str(input_path), str(dest_path))
         print(f"  [+] Moved to: {dest_path}")
-        print(f"  [JESSE] Nice. One clean capture organised.")
-    except Exception as e:
+        print(f"  [Jesse] Nice. One clean capture organised.")    except Exception as e:
         print(f"  [ERROR] Move failed: {e}")
         return None
 
@@ -305,9 +297,8 @@ def process_capture(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="JESSE's Capture Helper - Rename, validate, and organise your own Flipper Sub-GHz captures into car_hacks_au/",
-        epilog="Only use on captures from hardware you legally own. This tool touches files only. No radio bullshit."
-    )
+        description="Jesse's Capture Helper - Rename, validate, and organise your own Flipper Sub-GHz captures into car_hacks_au/",
+        epilog="Only use on captures from hardware you legally own. This tool touches files only. No radio unverified claims."    )
     parser.add_argument("--input", type=str, help="Single .sub file to process")
     parser.add_argument("--batch-dir", type=str, help="Directory of .sub files to process in batch")
     parser.add_argument("--brand", type=str, required=True, help="Brand key (toyota, ford_ranger, hyundai_kia, gates, etc.)")
@@ -333,21 +324,19 @@ def main():
     if args.input:
         p = Path(args.input).resolve()
         if not p.exists():
-            print(f"[JESSE] ERROR: Input file not found: {p}")
-            return
+            print(f"[Jesse] ERROR: Input file not found: {p}")            return
         files_to_process.append(p)
 
     if args.batch_dir:
         d = Path(args.batch_dir).resolve()
         if not d.is_dir():
-            print(f"[JESSE] ERROR: Batch dir not found or not a directory: {d}")
+            print(f"[Jesse] ERROR: Batch dir not found or not a directory: {d}")
             return
         sub_files = sorted(d.glob("*.sub"))
         if not sub_files:
-            print(f"[JESSE] No .sub files found in {d}")
+            print(f"[Jesse] No .sub files found in {d}")
             return
-        print(f"[JESSE] Found {len(sub_files)} .sub files in batch dir.")
-        files_to_process.extend(sub_files)
+        print(f"[Jesse] Found {len(sub_files)} .sub files in batch dir.")        files_to_process.extend(sub_files)
 
     results = []
     for f in files_to_process:
@@ -368,8 +357,7 @@ def main():
     # Summary + optional playlist file append
     if results:
         print("\n" + "=" * 60)
-        print("[JESSE] SUMMARY — Playlist entries ready to copy:")
-        print("=" * 60)
+        print("[Jesse] SUMMARY — Playlist entries ready to copy:")        print("=" * 60)
         for r in results:
             print(r["playlist_entry"])
 
@@ -382,11 +370,10 @@ def main():
                     plf.write(r["playlist_entry"] + "\n")
             print(f"\n[+] Appended {len(results)} entries to {pl_path}")
 
-        print("\n[JESSE] All done, legend. Now go edit your actual playlist .txt and test replay on your own car.")
+        print("\n[Jesse] All done, legend. Now go edit your actual playlist .txt and test replay on your own car.")
         print("Remember: if it didn't work on the vehicle you captured it from, the file is not ready for anything else.")
     else:
-        print("\n[JESSE] Nothing was processed successfully. Fix the issues above and try again.")
-
+        print("\n[Jesse] Nothing was processed successfully. Fix the issues above and try again.")
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,4 @@
-# JESSE's Verified Australian 433.92 MHz Sub-GHz Frequencies
-# flipper-zero-au-subghz
+# Jesse's Verified Australian 433.92 MHz Sub-GHz Frequencies# flipper-zero-au-subghz
 #
 # Simple reference export pulled straight from the AU_VEHICLES database
 # and generate_settings_user() logic in fcc_research/fcc_au_car_data.py
@@ -51,6 +50,5 @@
 # If you find verified AU hardware on a different freq that actually works
 # on real cars, contribute it back to the AU_VEHICLES dict with receipts.
 #
-# She'll be right when you use the right frequencies on your own gear.
-# — JESSE
-
+# you will be fine when you use the right frequencies on your own gear.
+# — Jesse

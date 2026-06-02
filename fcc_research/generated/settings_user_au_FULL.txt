@@ -1,9 +1,7 @@
 # ============================================================
-# JESSE's FULL AU 433.92 MHz settings_user.txt
-# Generated: 2026-06-02T15:48:04.977632
-# For RogueMaster / Momentum / Unleashed / Xtreme
-# This is the heavy version - more opinionated, more useful.
-# ============================================================
+# Jesse's FULL AU 433.92 MHz settings_user.txt
+# Production-ready for RogueMaster / Momentum / Unleashed / Xtreme
+# Built for Australian locksmith & security research use# ============================================================
 
 [subghz]
 

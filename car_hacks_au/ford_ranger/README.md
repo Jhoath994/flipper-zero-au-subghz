@@ -1,7 +1,6 @@
-# Ford Ranger — JESSE's Verified AU 433.92 MHz Notes
+# Ford Ranger — Jesse's Verified AU 433.92 MHz Notes
 
-**"If it ain't in the AU_VEHICLES database from fcc_au_car_data.py, it ain't verified. No bullshit, no made-up codes." — JESSE**
-
+**"If it ain't in the AU_VEHICLES database from fcc_au_car_data.py, it ain't verified. No unverified claims, no fabricated codes." — Jesse**
 This folder is for **your own Ford Ranger** captures only. Nothing else belongs here.
 
 ---
@@ -20,7 +19,7 @@ These are the ones with confirmed 433.92 MHz presence in Australian market data 
 - **Frequency**: 433920000 Hz (433.92 MHz ISM band — THE frequency that matters for AU cars)
 - **Common modulation**: Often 2FSK on later models, ASK on early
 
-**The ASK/FSK trap is brutal on Rangers.** Early models often ASK. 2018+ frequently 2FSK. Using an OOK preset on a true FSK fob gives you dogshit range and fake "decoded" signals that do absolutely nothing when replayed.
+**The ASK/FSK trap is brutal on Rangers.** Early models often ASK. 2018+ frequently 2FSK. Using an OOK preset on a true FSK fob gives you poor quality range and fake "decoded" signals that do absolutely nothing when replayed.
 
 ---
 
@@ -42,9 +41,8 @@ These are the ones with confirmed 433.92 MHz presence in Australian market data 
 
 ---
 
-## Real Capture Advice (JESSE Method — Do This or Waste Your Time)
-
-1. **Stand 5-15 metres away** from the vehicle. Closer is often worse — signal saturation fucks your capture.
+## Real Capture Advice (Jesse Method — Do This or Waste Your Time)
+1. **Stand 5-15 metres away** from the vehicle. Closer is often worse — signal saturation degrades your capture.
 2. **Multiple button presses with proper gaps**: Lock, wait 2-3 seconds, lock again. Do 8-12 presses minimum. For rolling code vehicles you want a sequence of consecutive codes.
 3. **Capture as RAW first, every time.** Don't trust the live decoder until you have good raw data. Wrong preset lies to you.
 4. **Verify immediately** on *your own* Ranger. If the replay doesn't control the vehicle you captured it from, the file is not useful yet.
@@ -90,12 +88,11 @@ Rolling codes are present. Simple replay often works zero or one time before the
 - Using any Sub-GHz technique, replay, or knowledge from here against a Ranger or Everest you do **not** own is **illegal** in Australia.
 - Criminal Code, ACMA radiocommunications laws, theft/break-and-enter statutes all apply.
 - "I was just testing with my Flipper" is not a defence when it's your neighbour's ute or the work truck.
-- Rolling codes exist specifically to stop exactly this shit. Most modern replays fail fast anyway.
-- The repo maintainers and JESSE take **zero responsibility** for you being a fuckwit and getting charged.
+- Rolling codes exist specifically to prevent exactly this type of attack. Most modern replays fail fast anyway.
+- The repo maintainers and Jesse take **zero responsibility** for you misusing this information and getting charged.
+If you're here looking to steal utes: **leave now**. Close the folder. This is not for you.
 
-If you're here looking to steal utes: **fuck off**. Close the folder. This is not for you.
-
-If you own the vehicle, test only on it, stay legal, and learn how the real systems actually work — welcome. She'll be right.
+If you own the vehicle, test only on it, stay legal, and learn how the real systems actually work — welcome. you will be fine.
 
 **Verified only. Legal only. Your own property only.**
 
@@ -105,6 +102,5 @@ If you own the vehicle, test only on it, stay legal, and learn how the real syst
 
 Now stop reading and go capture your own Ranger properly at 10 metres. Multiple presses. Start with the right preset for the year.
 
-— JESSE
-Verified only • Australian 433.92 specialist • No rules except the real ones
+— JesseVerified only • Australian 433.92 specialist • No rules except the real ones
 

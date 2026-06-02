@@ -1,7 +1,6 @@
 # ========================================================
-# JESSE's AU Car Slayer - settings_user.txt additions
-# Generated: 2026-06-02T15:48:04.889951
-# For RogueMaster, Momentum, Unleashed and similar custom firmwares
+# Jesse's AU Car Slayer - settings_user.txt additions
+# Generated: 2026-06-01T14:39:15.510253# For RogueMaster, Momentum, Unleashed and similar custom firmwares
 # ========================================================
 
 [subghz]
@@ -29,7 +28,6 @@ frequency = 434775000
 # For FSK Hyundai/Kia, later Ford Ranger, VW Amarok, some Mazda/Subaru
 # Critical for Korean brands. Deviation around 47.6 kHz is commonly reported as effective.
 
-# Pro tip from JESSE:
-# After adding these, do a 'Read' on your own key fob first.
+# Pro tip from Jesse:# After adding these, do a 'Read' on your own key fob first.
 # Then use the captured file as the base for any replay/rolljam attempts.
 # Never trust random .sub files from the internet for your own car.

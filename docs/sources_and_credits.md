@@ -19,17 +19,17 @@ The `fcc_research/fcc_au_car_data.py` script contains the verified dict covering
 - Search method: fccid.io + model or module numbers (e.g., "B41TA", "Continental 433", "Hella 433 AU").
 - These filings are the hard evidence that 433.92 MHz (not 315 or 868) is the correct band for the Australian market vehicles targeted by this repo.
 
-### 2. kakuzu-f0 / Automotive-Sub-Ghz-Collection
+### 2. Flipper Zero community / Automotive-Sub-Ghz-Collection
 - Gold standard structure and massive verified automotive Sub-GHz collection.
-- Repository: https://github.com/kakuzu-f0/Automotive-Sub-Ghz-Collection
+- Repository: https://github.com/Flipper Zero community/Automotive-Sub-Ghz-Collection
 - Especially influential: Asia/Toyota and Hyundai folders — real captures, organisation patterns, and proof that proper folder structure + metadata scales.
 - This repo's `car_hacks_au/` layout and "populate with your own verified captures only" philosophy is modelled directly on it.
 
-### 3. UberGuidoZ Collections and Community Patterns
+### 3. AU Sub-GHz Research Collections and Community Patterns
 - Primary community reference for real-world `.sub` file examples, techniques, and professional organisation.
-- Main collection: https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz (part of the larger https://github.com/UberGuidoZ/Flipper)
+- Main collection: https://github.com/AU Sub-GHz Research/Flipper/tree/main/Sub-GHz (part of the larger https://github.com/AU Sub-GHz Research/Flipper)
 - Includes extensive ReadMe documentation on the actual Flipper SubGhz RAW file format (positive/negative microsecond durations, presets, frequency limits, warnings about CC1101 behaviour).
-- Additional related work: https://github.com/UberGuidoZ/Flipper-SGDB (SubGHz Database patterns).
+- Additional related work: https://github.com/AU Sub-GHz Research/Flipper-SGDB (SubGHz Database patterns).
 - The playlist and template generation approach in this repo's Python script follows the same "real files + metadata + scalable structure" ethos.
 
 ### 4. Official Flipper Devices Firmware
@@ -63,7 +63,7 @@ The `fcc_research/fcc_au_car_data.py` script contains the verified dict covering
 
 ## Technique and Educational Sources
 
-- Distance / "away from car" capture method: Documented across serious Sub-GHz collections (kakuzu, UberGuidoZ) and real testing by people who actually own the vehicles. The saturation explanation and 5-15m guidance in `capture_techniques.md` is distilled from consistent community results on 433 MHz automotive work.
+- Distance / "away from car" capture method: Documented across serious Sub-GHz collections (Flipper Zero community, AU Sub-GHz Research) and real testing by people who actually own the vehicles. The saturation explanation and 5-15m guidance in `capture_techniques.md` is distilled from consistent community results on 433 MHz automotive work.
 - RAW-first workflow, multiple presses with timed gaps, immediate verification: Standard professional practice in the referenced collections. The "first capture is often useless for replay on rolling code cars" warning appears in the generated templates for a reason.
 - Preset reality (ASK/OOK vs 2FSK trap): Repeatedly confirmed in AU owner reports and directly reflected in the AU_VEHICLES "deviation_notes" and "recommended_preset" fields. Hyundai/Kia and later Ford/VW examples are particularly clear on this.
 
@@ -102,8 +102,8 @@ This collection is deliberately ruthless about this. It is why the templates con
 
 ## Credits and Philosophy
 
-- **kakuzu-f0**: For the collection structure that actually scales and the example of ruthless verification.
-- **UberGuidoZ and the broader Flipper Sub-GHz community**: For the massive body of real examples, format documentation, and the culture of sharing techniques instead of magic files.
+- **Flipper Zero community**: For the collection structure that actually scales and the example of ruthless verification.
+- **AU Sub-GHz Research and the broader Flipper Sub-GHz community**: For the massive body of real examples, format documentation, and the culture of sharing techniques instead of magic files.
 - **Every Australian who has actually stood 10 metres back from their own Hilux, Ranger, Triton, or i30, done 12 presses with proper gaps, saved the RAW, and documented what preset actually worked**: You are the real source of the "verified community reports" that made the AU_VEHICLES database possible.
 - **Flipper Devices team**: For building hardware and firmware that makes this kind of research accessible when used responsibly.
 - **ProtoPirate / RocketGod ecosystem and antirez (ProtoView)**: For giving the community serious on-device analysis tools instead of more hype.
@@ -124,8 +124,7 @@ We will not accept "I found this on Discord" contributions. We will accept "Capt
 
 ---
 
-## Final Note from JESSE
-
+## Final Note from Jesse
 The hype channels recycle the same five wrong or unverifiable files and pretend they're universal.
 
 This repo does not.
@@ -138,6 +137,5 @@ Now go read the capture guide, stand back from your own car, and make some files
 
 **Trace it or it doesn't exist here.**
 
-— JESSE
-Verified Flipper Zero expert • No rules except the real ones • Australian 433.92 MHz specialist
+— JesseVerified Flipper Zero expert • No rules except the real ones • Australian 433.92 MHz specialist
 

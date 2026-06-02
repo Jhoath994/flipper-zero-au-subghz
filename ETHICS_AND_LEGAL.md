@@ -17,7 +17,7 @@ Penalties can include fines and jail time. "I saw it on GitHub" is not a defence
 
 - Never use anything in this repo on systems, vehicles, or networks that do not belong to you without **written** authorisation.
 - Never share working clones of other people's keys/cards/fobs.
-- Never help randoms on the internet break into shit.
+- Never help randoms on the internet break into material.
 - If someone asks you to "just test this gate for me" and it's not yours — the answer is always no.
 
 ## Good Use Cases
@@ -27,9 +27,8 @@ Penalties can include fines and jail time. "I saw it on GitHub" is not a defence
 - Research and education (with ethics approval where required).
 - Defensive work: understanding how easy certain systems are to attack so you can recommend better ones.
 
-## JESSE's Rule
+## Jesse's Rule
 
 If you have to ask "is this legal?", the answer is almost always "no, don't do it".
 
-Do the right thing or get the fuck out of the community.
-
+Do the right thing or get the mess out of the community.

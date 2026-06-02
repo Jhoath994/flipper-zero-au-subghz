@@ -18,14 +18,14 @@ The generator script itself (`fcc_au_car_data.py`) contains the authoritative `A
 - Search technique used: fccid.io + module or model numbers + "433" + Australia context. Only data that aligned with real AU-market vehicles was kept.
 - These filings are the reason every brand in AU_VEHICLES hardcodes `frequency_hz: 433920000`.
 
-### 2. kakuzu-f0 / Automotive-Sub-Ghz-Collection
-- Repository: https://github.com/kakuzu-f0/Automotive-Sub-Ghz-Collection
+### 2. Flipper Zero community / Automotive-Sub-Ghz-Collection
+- Repository: https://github.com/Flipper Zero community/Automotive-Sub-Ghz-Collection
 - The professional folder structure (`car_hacks_au/` layout), metadata expectations, and "populate with your own verified captures only" philosophy are modelled directly on this collection.
 - Especially valuable: the Asia/Toyota and Hyundai/Kia patterns that proved clean organisation scales when you have hundreds of real files.
 
-### 3. UberGuidoZ Sub-GHz Collections & Related Work
-- Primary: https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz
-- Related: https://github.com/UberGuidoZ/Flipper-SGDB
+### 3. AU Sub-GHz Research Sub-GHz Collections & Related Work
+- Primary: https://github.com/AU Sub-GHz Research/Flipper/tree/main/Sub-GHz
+- Related: https://github.com/AU Sub-GHz Research/Flipper-SGDB
 - Source of real-world `.sub` file format examples, RAW_Data conventions (positive/negative microsecond durations), preset behaviour notes, and the broader "professional personal collection" culture that this repo follows.
 - The playlist generation logic and template comment style in the generator owe a lot to patterns seen across these collections.
 
@@ -67,7 +67,7 @@ Only data that survived both FCC cross-check **and** repeatable real-world resul
 
 ## Technique & Educational Sources
 
-- Distance capture method (5-15 m, multiple presses with gaps, RAW-first): Consistent pattern across kakuzu-f0, UberGuidoZ collections, and every serious practitioner who has published results on 433 MHz automotive work. The saturation/AGC explanation in `docs/capture_techniques.md` comes directly from this body of experience.
+- Distance capture method (5-15 m, multiple presses with gaps, RAW-first): Consistent pattern across Flipper Zero community, AU Sub-GHz Research collections, and every serious practitioner who has published results on 433 MHz automotive work. The saturation/AGC explanation in `docs/capture_techniques.md` comes directly from this body of experience.
 - "First capture is often useless on rolling code cars" warning: Standard observation once you move past ancient fixed-code systems.
 - Preset trap (especially Hyundai/Kia, later Rangers, VW group): Repeatedly confirmed by AU owners who wasted time on OOK presets on true 2FSK fobs.
 
@@ -112,8 +112,8 @@ PRs without your own verified captures + metadata will be closed.
 
 ## Credits (in addition to the sources above)
 
-- **kakuzu-f0** — for the collection architecture that actually scales and the example of ruthless verification.
-- **UberGuidoZ and the entire Flipper Sub-GHz community** — for the body of real examples, format documentation, and culture of sharing techniques instead of magic files.
+- **Flipper Zero community** — for the collection architecture that actually scales and the example of ruthless verification.
+- **AU Sub-GHz Research and the entire Flipper Sub-GHz community** — for the body of real examples, format documentation, and culture of sharing techniques instead of magic files.
 - **Every Australian** who has actually stood 8–12 metres back from their own Hilux, Ranger, Triton, i30 or Commodore, done 12 proper presses with gaps, saved the RAW, tested OOK vs FSK, and shared what actually worked on *their* car. You are the real source of the "verified community reports".
 - **Flipper Devices team** — for hardware and firmware that makes this kind of research accessible when used responsibly.
 - **ProtoPirate / RocketGod / antirez** — for serious on-device analysis tools instead of more hype.
@@ -122,8 +122,7 @@ Special thanks to everyone who contributes verified captures with full metadata 
 
 ---
 
-## Final Note from JESSE
-
+## Final Note from Jesse
 The hype channels recycle the same five wrong or unverifiable files and pretend they're universal.
 
 This repo does not.
@@ -136,6 +135,5 @@ Now go read the capture guide, stand back from your own car, and make some files
 
 **Trace it or it doesn't exist here.**
 
-— JESSE
-Verified Flipper Zero expert • No rules except the real ones • Australian 433.92 MHz specialist
+— JesseVerified Flipper Zero expert • No rules except the real ones • Australian 433.92 MHz specialist
 

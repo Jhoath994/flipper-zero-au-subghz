@@ -1,7 +1,6 @@
-# Gates, Garages & 433.92 MHz Openers — JESSE's Verified AU Training Targets
+# Gates, Garages & 433.92 MHz Openers — Jesse's Verified AU Training Targets
 
-**"Gates first, mate. Cars are fucken hard. Gates are where you learn the actual workflow without wanting to neck yourself." — JESSE**
-
+**"Gates first, mate. Cars are challenging. Gates are where you learn the actual workflow without getting frustrated." — Jesse**
 This folder is for **your own gate/garage remote captures only**. Nothing else belongs here.
 
 **Start here if you're new.** These are dramatically easier training targets than modern car fobs. Many use simple OOK with fixed codes or short/simple rolling codes. Success rates are way higher. Perfect for learning capture → verify → playlist → automation before you touch the hard stuff.
@@ -109,11 +108,10 @@ These are the targets where you can actually build useful personal libraries and
 - "I was just testing with my Flipper" is not a defence when it's your neighbour's roller door or the servo's gate.
 - Jamming is especially illegal and a great way to get ACMA and police attention fast.
 - Even on simple fixed-code gates, replaying someone else's signal without permission is not a game.
-- The repo maintainers and JESSE take **zero responsibility** for you being a fuckwit and getting charged.
+- The repo maintainers and Jesse take **zero responsibility** for you misusing this information and getting charged.
+If you're here looking to open gates that aren't yours: **leave now**. Close the folder. This is not for you.
 
-If you're here looking to open gates that aren't yours: **fuck off**. Close the folder. This is not for you.
-
-If you own the gate/garage, test only on it, stay legal, learn the workflow, and use this as training wheels for the harder car work — welcome. She'll be right.
+If you own the gate/garage, test only on it, stay legal, learn the workflow, and use this as training wheels for the harder car work — welcome. you will be fine.
 
 **Gates are for learning. Cars are the final boss. Stay on your own property.**
 
@@ -127,8 +125,7 @@ Now stop reading and go capture your own ATA or B&D remote properly at 8-10 metr
 
 Once you've got a few gates working reliably, *then* go stand 10 metres back from your own Hilux or Ranger and apply the same discipline.
 
-She'll be right.
+you will be fine.
 
-— JESSE
-Verified only • Australian 433.92 specialist • No rules except the real ones • Gates before cars, always
+— JesseVerified only • Australian 433.92 specialist • No rules except the real ones • Gates before cars, always
 

@@ -23,8 +23,7 @@
 - Local electronics stores for SD cards and cables.
 - Avoid anything that looks like "car hacking tools" sold with "no questions asked" marketing — it's usually overpriced garbage.
 
-## JESSE's Loadout (Typical)
-- Flipper in a small pouch
+## Jesse's Loadout (Typical)- Flipper in a small pouch
 - 10x T5577
 - 10x RW1990
 - WiFi board

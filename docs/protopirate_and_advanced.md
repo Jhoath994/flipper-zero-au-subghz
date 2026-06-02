@@ -92,7 +92,7 @@ The structure exists so that when you have 50+ real files across Toyota, Ranger,
 
 ---
 
-## Real Public Project References (No Bullshit Links)
+## Real Public Project References (No unverified claims Links)
 
 All of the following are active, real, public projects as of 2026:
 
@@ -100,8 +100,8 @@ All of the following are active, real, public projects as of 2026:
 - **ProtoView**: https://github.com/antirez/protoview — visualisation and general protocol work.
 - **RocketGods-SubGHz-Toolkit**: https://github.com/RocketGod-git/RocketGods-SubGHz-Toolkit
 - **Flipper Zero official firmware (Sub-GHz reference)**: https://github.com/FlipperDevices/flipperzero-firmware (applications/main/subghz and docs on file format/presets).
-- **UberGuidoZ Sub-GHz collection and patterns**: https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz
-- **kakuzu-f0 Automotive collection (structure inspiration)**: https://github.com/kakuzu-f0/Automotive-Sub-Ghz-Collection
+- **AU Sub-GHz Research Sub-GHz collection and patterns**: https://github.com/AU Sub-GHz Research/Flipper/tree/main/Sub-GHz
+- **Flipper Zero community Automotive collection (structure inspiration)**: https://github.com/Flipper Zero community/Automotive-Sub-Ghz-Collection
 - **flipper_toolbox**: https://github.com/evilpete/flipper_toolbox
 - **Custom firmware homes** (for the latest bundled apps): RogueMaster, Momentum, Unleashed — follow their official channels.
 
@@ -109,9 +109,8 @@ For desktop: Search for current maintained URH forks and KAT releases. The space
 
 ---
 
-## Final JESSE Reality Check
-
-These tools will show you exactly how good (or how dogshit) your captures actually are. They will reveal pulse jitter, modulation errors, and timing problems that the stock Sub-GHz app hides.
+## Final Jesse Reality Check
+These tools will show you exactly how good (or how poor) your captures actually are. They will reveal pulse jitter, modulation errors, and timing problems that the stock Sub-GHz app hides.
 
 They will **not** give you working codes for cars that aren't yours. They will not defeat modern challenge-response or well-implemented rolling codes on 2020+ AU utes.
 
@@ -125,5 +124,4 @@ That's the only pipeline that produces real results.
 
 **Now go feed some actual good captures into ProtoPirate instead of random Telegram trash.**
 
-— JESSE
-
+— Jesse

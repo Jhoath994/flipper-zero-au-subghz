@@ -1,6 +1,5 @@
 # ============================================================
-# JESSE's FULL AU 433.92 MHz settings_user.txt
-# Generated: 2026-06-01T08:21:31.888090
+# Jesse's FULL AU 433.92 MHz settings_user.txt# Generated: 2026-06-01T08:21:31.888090
 # For RogueMaster / Momentum / Unleashed / Xtreme
 # This is the heavy version - more opinionated, more useful.
 # ============================================================
@@ -20,7 +19,7 @@ frequency = 433775000
 frequency = 434775000
 
 # === CUSTOM PRESETS (THE IMPORTANT BIT) ===
-# The ASK vs FSK trap fucks more people than anything else.
+# The ASK vs FSK trap ruins more people than anything else.
 # Copy these or create custom presets in your firmware.
 
 # Good for Toyota Hilux, older Ranger, Holden VF, Triton, D-Max, BT-50, most gates
@@ -31,8 +30,7 @@ Custom_preset_data = 02 0D 0B 06 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00
 Custom_preset_name = AU_FSK_Car
 Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
-# JESSE's notes on the above:
-# - OOK version is tuned for narrow-ish bandwidth good for many simple key fobs.
+# Jesse's notes on the above:# - OOK version is tuned for narrow-ish bandwidth good for many simple key fobs.
 # - FSK version targets ~47-48kHz deviation which is commonly effective on Korean + VW group.
 # - Always start with the recommended preset in the brand notes before going custom.
 
@@ -42,7 +40,7 @@ Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00
 # protocol = Nice FLO
 
 # Pro move: After adding these frequencies + presets, go outside.
-# Capture your own shit from 8-12 metres away. Multiple presses. RAW first.
+# Capture your own material from 8-12 metres away. Multiple presses. RAW first.
 # Then and only then start thinking about replay or more advanced work.
 
 # This file is for educational / research use on hardware you legally own.

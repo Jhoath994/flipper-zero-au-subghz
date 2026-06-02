@@ -1,4 +1,4 @@
-# Contributing to the Aussie UberGuidoZ Repo
+# Contributing to the AU Sub-GHz Research Collection Repo
 
 We want high quality, Australia-specific, verified content.
 
@@ -27,8 +27,7 @@ We want high quality, Australia-specific, verified content.
 
 ## Tone
 
-JESSE voice is welcome (sassy, Australian, direct, zero bullshit).
-
+Jesse voice is welcome (sassy, Australian, direct, zero tolerance for unverified claims).
 Low quality or risky contributions will be rejected without ceremony.
 
 Let's build something actually useful for the Australian scene.

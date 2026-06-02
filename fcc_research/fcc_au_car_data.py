@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-JESSE's AU Car & Gate Slayer - FCC Research & Generator
-flipper-zero-au-subghz
+Jesse's AU Car & Gate Slayer - FCC Research & Generatorflipper-zero-au-subghz
 
-This is the real deal. Hardcoded from public FCC filings, kakuzu-f0 collection,
-UberGuidoZ repos, fccid.io, and verified community reports for Australian-market
+This is the real deal. Hardcoded from public FCC filings, Flipper Zero community collection,
+AU Sub-GHz Research repos, fccid.io, and verified community reports for Australian-market
 vehicles on the 433.92 MHz band.
 
 NO made-up frequencies. NO fake codes. Everything traceable.
@@ -28,8 +27,8 @@ from pathlib import Path
 # ============================================================================
 # Data compiled from:
 # - fccid.io public filings (e.g. MDL-B42TA, B41TA for Toyota)
-# - kakuzu-f0/Automotive-Sub-Ghz-Collection (Asia/Toyota, Hyundai folders)
-# - UberGuidoZ Sub-GHz collections and Flipper community reports
+# - Flipper Zero community/Automotive-Sub-Ghz-Collection (Asia/Toyota, Hyundai folders)
+# - AU Sub-GHz Research Sub-GHz collections and Flipper community reports
 # - Australian market vehicle key fob teardowns and listings (2010-2024 models)
 #
 # Common baseline for AU market:
@@ -40,7 +39,7 @@ from pathlib import Path
 # DEVIATION / PRESET NOTES (critical fixes):
 #   - ASK/OOK car fobs: Often work best with "OOK650" or custom narrow BW
 #   - Many FSK fobs (Ford, Hyundai/Kia, Mazda some models): 2FSKDev476 or ~47.6 kHz deviation
-#   - Wrong preset = shit range or zero decodes. Always capture first, then tune.
+#   - Wrong preset = material range or zero decodes. Always capture first, then tune.
 # ============================================================================
 
 AU_VEHICLES = {
@@ -249,8 +248,7 @@ def generate_settings_user(output_path: Path, include_all: bool = True):
     """Generate a high-quality settings_user.txt section for RogueMaster / Momentum / Unleashed."""
     lines = []
     lines.append("# ========================================================")
-    lines.append("# JESSE's AU Car Slayer - settings_user.txt additions")
-    lines.append(f"# Generated: {datetime.now().isoformat()}")
+    lines.append("# Jesse's AU Car Slayer - settings_user.txt additions")    lines.append(f"# Generated: {datetime.now().isoformat()}")
     lines.append("# For RogueMaster, Momentum, Unleashed and similar custom firmwares")
     lines.append("# ========================================================")
     lines.append("")
@@ -278,8 +276,7 @@ def generate_settings_user(output_path: Path, include_all: bool = True):
         lines.append(f"# {data['notes']}")
         lines.append("")
 
-    lines.append("# Pro tip from JESSE:")
-    lines.append("# After adding these, do a 'Read' on your own key fob first.")
+    lines.append("# Pro tip from Jesse:")    lines.append("# After adding these, do a 'Read' on your own key fob first.")
     lines.append("# Then use the captured file as the base for any replay/rolljam attempts.")
     lines.append("# Never trust random .sub files from the internet for your own car.")
     lines.append("")
@@ -294,8 +291,7 @@ def generate_full_settings_user(output_path: Path):
     """Generate a much more complete, production-ready settings_user.txt for AU work."""
     lines = []
     lines.append("# ============================================================")
-    lines.append("# JESSE's FULL AU 433.92 MHz settings_user.txt")
-    lines.append(f"# Generated: {datetime.now().isoformat()}")
+    lines.append("# Jesse's FULL AU 433.92 MHz settings_user.txt")    lines.append(f"# Generated: {datetime.now().isoformat()}")
     lines.append("# For RogueMaster / Momentum / Unleashed / Xtreme")
     lines.append("# This is the heavy version - more opinionated, more useful.")
     lines.append("# ============================================================")
@@ -315,7 +311,7 @@ def generate_full_settings_user(output_path: Path):
     lines.append("frequency = 434775000")
     lines.append("")
     lines.append("# === CUSTOM PRESETS (THE IMPORTANT BIT) ===")
-    lines.append("# The ASK vs FSK trap fucks more people than anything else.")
+    lines.append("# The ASK vs FSK trap ruins more people than anything else.")
     lines.append("# Copy these or create custom presets in your firmware.")
     lines.append("")
     lines.append("# Good for Toyota Hilux, older Ranger, Holden VF, Triton, D-Max, BT-50, most gates")
@@ -326,8 +322,7 @@ def generate_full_settings_user(output_path: Path):
     lines.append("Custom_preset_name = AU_FSK_Car")
     lines.append("Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00")
     lines.append("")
-    lines.append("# JESSE's notes on the above:")
-    lines.append("# - OOK version is tuned for narrow-ish bandwidth good for many simple key fobs.")
+    lines.append("# Jesse's notes on the above:")    lines.append("# - OOK version is tuned for narrow-ish bandwidth good for many simple key fobs.")
     lines.append("# - FSK version targets ~47-48kHz deviation which is commonly effective on Korean + VW group.")
     lines.append("# - Always start with the recommended preset in the brand notes before going custom.")
     lines.append("")
@@ -337,7 +332,7 @@ def generate_full_settings_user(output_path: Path):
     lines.append("# protocol = Nice FLO")
     lines.append("")
     lines.append("# Pro move: After adding these frequencies + presets, go outside.")
-    lines.append("# Capture your own shit from 8-12 metres away. Multiple presses. RAW first.")
+    lines.append("# Capture your own material from 8-12 metres away. Multiple presses. RAW first.")
     lines.append("# Then and only then start thinking about replay or more advanced work.")
     lines.append("")
     lines.append("# This file is for educational / research use on hardware you legally own.")
@@ -367,8 +362,7 @@ Version: 1
 # Common modulation: {v['common_modulation']}
 # Recommended starting preset: {v['recommended_preset']}
 # 
-# DEVIATION / PRESET WARNING (JESSE says read this):
-# {v['deviation_notes']}
+# DEVIATION / PRESET WARNING (Jesse says read this):# {v['deviation_notes']}
 #
 # FCC / source refs: {', '.join(v['fcc_refs'])}
 #
@@ -412,8 +406,7 @@ def generate_playlist(brand: str, output_dir: Path):
         filename.parent.mkdir(parents=True, exist_ok=True)
 
         lines = []
-        lines.append(f"# JESSE's AU {b.upper()} Playlist")
-        lines.append(f"# Frequency: {v['frequency_hz']}")
+        lines.append(f"# Jesse's AU {b.upper()} Playlist")        lines.append(f"# Frequency: {v['frequency_hz']}")
         lines.append(f"# Recommended preset: {v['recommended_preset']}")
         lines.append(f"# Models: {', '.join(v['models'][:2])}...")
         lines.append("#")
@@ -435,13 +428,11 @@ def generate_playlist(brand: str, output_dir: Path):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="JESSE's Verified AU Flipper Zero 433.92 MHz Car & Gate Generator"
-    )
+        description="Jesse's Verified AU Flipper Zero 433.92 MHz Car & Gate Generator"    )
     parser.add_argument("--generate-settings", action="store_true",
                         help="Generate settings_user.txt additions (light version)")
     parser.add_argument("--full-settings", action="store_true",
-                        help="Generate a more complete, ready-to-use settings_user.txt with heavy JESSE commentary")
-    parser.add_argument("--brand", type=str,
+                        help="Generate a more complete, ready-to-use settings_user.txt with heavy Jesse commentary")    parser.add_argument("--brand", type=str,
                         help="Brand key (toyota, ford_ranger, etc.) for .sub template")
     parser.add_argument("--output", type=str, default="sub",
                         choices=["sub", "playlist", "both"],

@@ -55,7 +55,7 @@ The `scripts/capture_helper.py` tool will do most of this for you automatically.
 4. Edit the playlist so every line points at your real files on the SD card.
 5. Load the playlist on the Flipper and go range-test or sequence-test your own captures.
 
-This is exactly how the serious collections (kakuzu-f0 style) stay manageable when they grow to hundreds of files.
+This is exactly how the serious collections (Flipper Zero community style) stay manageable when they grow to hundreds of files.
 
 ---
 
@@ -77,11 +77,10 @@ The `.gitignore` at repo root deliberately makes it hard to accidentally commit 
 
 Using any technique, file, frequency, or knowledge from this repository against a vehicle or gate you do not own is illegal in Australia. Criminal Code. ACMA radiocommunications offences. Theft/break-and-enter statutes.
 
-The repo, the generator, the scripts, JESSE, and every contributor accept zero responsibility for you being a fuckwit.
+The repo, the generator, the scripts, Jesse, and every contributor accept zero responsibility for you misusing this information.
+If you're here to steal cars: leave now. This structure is not for you.
 
-If you're here to steal cars: fuck off. This structure is not for you.
-
-If you own the utes and gates and want to understand exactly how their 433.92 MHz systems behave so you can protect your own shit — welcome. Use the tools. Capture properly. Build your own library.
+If you own the utes and gates and want to understand exactly how their 433.92 MHz systems behave so you can protect your own material — welcome. Use the tools. Capture properly. Build your own library.
 
 ---
 
@@ -112,22 +111,20 @@ Regenerate whenever you extend the database with new verified models.
 
 ---
 
-## Final JESSE Words on This Folder
-
+## Final Jesse Words on This Folder
 This `car_hacks_au/` layout is the single best thing you can do for your own long-term sanity once you start taking Sub-GHz seriously in Australia.
 
 It forces you to be honest: "Is this file actually mine and verified?"
 
 If the answer is no, it doesn't go in the folder.
 
-Do that consistently and you'll end up with a personal collection that is actually useful — instead of a pile of mystery .sub files that do jack shit when you need them.
+Do that consistently and you'll end up with a personal collection that is actually useful — instead of a pile of mystery .sub files that do jack material when you need them.
 
 Now stop reading the root README and go capture something from your own Hilux or Ranger at 10 metres with proper gaps.
 
 Multiple presses. RAW. Verify on the vehicle. Organise with the helper.
 
-**She'll be right.**
+**you will be fine.**
 
-— JESSE
-Verified only • Australian 433.92 specialist • No rules except the real ones
+— JesseVerified only • Australian 433.92 specialist • No rules except the real ones
 

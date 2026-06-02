@@ -13,4 +13,4 @@ This folder is for longer-form, Australia-specific research writeups.
 - Heavy on methodology and evidence.
 - Include dates and context.
 
-This is where the real "Aussie UberGuidoZ" knowledge base lives long-term.
+This is where the real "AU Sub-GHz Research Collection" knowledge base lives long-term.

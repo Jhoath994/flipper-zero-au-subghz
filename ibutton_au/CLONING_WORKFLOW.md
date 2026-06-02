@@ -33,7 +33,7 @@
 ## Common Failures & Fixes
 - "Wrong family" → Try a different blank type (RW1990 vs DS1990A).
 - Reader doesn't respond → Try different pressure/angle. Some readers are picky.
-- Works in Emulate but not when written → The blank is shit. Use better quality ones.
+- Works in Emulate but not when written → The blank is material. Use better quality ones.
 
 ## Recommended Naming
 `ibutton_<brand>_<year>_<purpose>_<date>.ibtn`
@@ -43,6 +43,6 @@ Example: `ibutton_ata_gate_2014_master_2026-06-01.ibtn`
 ## Legal (Again)
 Only ever do this on systems you own or have written permission to test.
 
-If you're cloning random depot gates at 2am, you're not a researcher — you're a fuckwit who will eventually get caught.
+If you're cloning random depot gates at 2am, you're not a researcher — you're a irresponsible person who will eventually get caught.
 
 Do the work properly or don't do it.

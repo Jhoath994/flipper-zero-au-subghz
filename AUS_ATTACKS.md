@@ -1,8 +1,8 @@
-# This Repo is the Aussie UberGuidoZ
+# This Repo is the AU Sub-GHz Research Collection
 
 The goal is simple:
 
-Build the best, most practical, most Australia-focused Flipper Zero attack research collection on the planet — in the spirit of UberGuidoZ's legendary repo, but tuned for Australian conditions, laws, devices, and targets.
+Build the best, most practical, most Australia-focused Flipper Zero attack research collection on the planet — in the spirit of AU Sub-GHz Research's legendary repo, but tuned for Australian conditions, laws, devices, and targets.
 
 ## Current Modules (June 2026)
 
@@ -29,10 +29,10 @@ Build the best, most practical, most Australia-focused Flipper Zero attack resea
 - Heavy legal and ethical warnings on everything.
 - Practical, field-tested notes over theory.
 - Australia-specific (we don't care about US 315 MHz car fobs here).
-- High signal, low bullshit.
+- High signal, low unverified claims.
 
 This is meant to be the repo every serious Australian Flipper user has cloned.
 
-If you're here just to be a fuckwit and break into other people's shit — fuck off. This is for research, red teaming with permission, and protecting your own gear.
+If you're here just to be a irresponsible person and break into other people's systems — leave now. This is for research, red teaming with permission, and protecting your own gear.
 
 Now get to work.

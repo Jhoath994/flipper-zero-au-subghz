@@ -1,7 +1,6 @@
-# Holden Commodore (VF) — JESSE's Verified AU 433.92 MHz Notes
+# Holden Commodore (VF) — Jesse's Verified AU 433.92 MHz Notes
 
-**"If it ain't in the AU_VEHICLES database from fcc_au_car_data.py, it ain't verified. No bullshit, no made-up codes." — JESSE**
-
+**"If it ain't in the AU_VEHICLES database from fcc_au_car_data.py, it ain't verified. No unverified claims, no fabricated codes." — Jesse**
 This folder is for **your own Holden Commodore** captures only. Nothing else belongs here.
 
 ---
@@ -41,9 +40,8 @@ One of the more approachable "modern-ish" cars for Sub-GHz work in Australia. Th
 
 ---
 
-## Real Capture Advice (JESSE Method — Do This or Waste Your Time)
-
-1. **Stand 5-15 metres away** from the vehicle. Closer is often worse — signal saturation fucks your capture.
+## Real Capture Advice (Jesse Method — Do This or Waste Your Time)
+1. **Stand 5-15 metres away** from the vehicle. Closer is often worse — signal saturation degrades your capture.
 2. **Multiple button presses with proper gaps**: Lock, wait 2-3 seconds, lock again. Do 8-12 presses minimum. For rolling code vehicles you want a sequence of consecutive codes.
 3. **Capture as RAW first, every time.** Don't trust the live decoder until you have good raw data. Wrong preset lies to you.
 4. **Verify immediately** on *your own* Commodore. If the replay doesn't control the vehicle you captured it from, the file is not useful yet.
@@ -88,12 +86,11 @@ Rolling codes are present. Simple replay often works zero or one time before the
 - Using any Sub-GHz technique, replay, or knowledge from here against a Commodore you do **not** own is **illegal** in Australia.
 - Criminal Code, ACMA radiocommunications laws, theft/break-and-enter statutes all apply.
 - "I was just testing with my Flipper" is not a defence when it's your mate's VF or the local burnout car.
-- Rolling codes exist specifically to stop exactly this shit. Most modern replays fail fast anyway.
-- The repo maintainers and JESSE take **zero responsibility** for you being a fuckwit and getting charged.
+- Rolling codes exist specifically to prevent exactly this type of attack. Most modern replays fail fast anyway.
+- The repo maintainers and Jesse take **zero responsibility** for you misusing this information and getting charged.
+If you're here looking to steal Holdens: **leave now**. Close the folder. This is not for you.
 
-If you're here looking to steal Holdens: **fuck off**. Close the folder. This is not for you.
-
-If you own the vehicle, test only on it, stay legal, and learn how the real systems actually work — welcome. She'll be right.
+If you own the vehicle, test only on it, stay legal, and learn how the real systems actually work — welcome. you will be fine.
 
 **Verified only. Legal only. Your own property only.**
 
@@ -103,6 +100,5 @@ If you own the vehicle, test only on it, stay legal, and learn how the real syst
 
 Now stop reading and go capture your own VF Commodore properly at 10 metres. It's one of the easier ones for practice. Multiple presses. RAW first.
 
-— JESSE
-Verified only • Australian 433.92 specialist • No rules except the real ones
+— JesseVerified only • Australian 433.92 specialist • No rules except the real ones
 

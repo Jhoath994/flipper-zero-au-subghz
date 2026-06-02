@@ -1,5 +1,4 @@
-# JESSE's AU MAZDA_BT50 Playlist
-# Frequency: 433920000
+# Jesse's AU MAZDA_BT50 Playlist# Frequency: 433920000
 # Recommended preset: OOK650
 # Models: BT-50 (UP/UR 2011-2020, TF 2020+), Often shares platform with Ranger in some years...
 #

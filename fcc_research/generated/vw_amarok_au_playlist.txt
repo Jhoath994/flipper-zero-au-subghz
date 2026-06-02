@@ -1,5 +1,4 @@
-# JESSE's AU VW_AMAROK Playlist
-# Frequency: 433920000
+# Jesse's AU VW_AMAROK Playlist# Frequency: 433920000
 # Recommended preset: 2FSKDev476
 # Models: Amarok (2H 2011-2022 AU), V6 models...
 #

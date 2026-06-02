@@ -1,10 +1,9 @@
 # Capture Techniques: The Distance Method for 433.92 AU Rolling Codes
 
-**JESSE's No-Bullshit Ultimate Guide**
-
+**Jesse's No-unverified claims Ultimate Guide**
 Look, mate. If you're standing 30cm from the car mashing the fob like it's going out of style and wondering why your Flipper captures are useless garbage that won't replay, this document is for you. The "away from the car" technique — 5 to 15 metres — is the single biggest practical improvement most people can make for real 433.92 MHz Australian vehicles.
 
-This isn't YouTube magic. This is how the actual collections (kakuzu-f0 style, UberGuidoZ patterns) get usable rolling code sequences. Everything here is grounded in the AU_VEHICLES database and real Flipper SubGhz RAW behaviour.
+This isn't YouTube magic. This is how the actual collections (Flipper Zero community style, AU Sub-GHz Research patterns) get usable rolling code sequences. Everything here is grounded in the AU_VEHICLES database and real Flipper SubGhz RAW behaviour.
 
 ---
 
@@ -38,7 +37,7 @@ Being right on top of the vehicle is one of the most common and stupid mistakes.
    - **Hyundai/Kia** (i30, Tucson, Sportage ~2015+): `2FSKDev476` is non-negotiable. OOK preset here is a waste of time.
    - **Mazda, Mitsubishi Triton, Nissan Navara D23, Subaru Forester, Isuzu D-Max, VW Amarok**: See the per-brand notes in the generator and README. Always have both OOK650 and 2FSKDev476 ready to switch.
 
-   Wrong preset = either nothing or fake "decoded" signals that do jack shit on replay.
+   Wrong preset = either nothing or fake "decoded" signals that do jack material on replay.
 
 3. **On the Flipper**
    - Sub-GHz app → Read (or Capture in some firmwares).
@@ -122,21 +121,19 @@ Once you have a solid RAW file:
 
 ---
 
-## Final JESSE Real Talk
-
-The distance technique + RAW + multiple timed presses + immediate verification on your own hardware is 90% of winning at this. The other 10% is not being a muppet about presets.
+## Final Jesse Real Talk
+The distance technique + RAW + multiple timed presses + immediate verification on your own hardware is 90% of winning at this. The other 10% is not being a irresponsible person about presets.
 
 Every single verified capture in serious collections started exactly like this — someone standing a sensible distance from their own car, doing the boring work of pressing the button a dozen times with gaps, saving the RAW, and testing it properly.
 
 If it was easy, every random .sub on Telegram would actually work. They don't.
 
-Do the work. Stand back. Capture RAW. Verify on your own shit. Build your own library using the `car_hacks_au/` structure and the generator.
+Do the work. Stand back. Capture RAW. verify on your own hardware. Build your own library using the `car_hacks_au/` structure and the generator.
 
 The cars in the AU_VEHICLES list (Hilux B41/B42TA, Ranger PX series, VF Commodore, Korean FSK boxes, Triton, D-Max, Amarok, etc.) are all real Australian vehicles on 433.92 MHz. None of them are "press one button from the internet and done."
 
 Now stop reading and go capture something properly.
 
-**She'll be right — if you do it right.**
+**you will be fine — if you do it right.**
 
-— JESSE
-
+— Jesse

@@ -3,7 +3,7 @@
 BadUSB remains one of the highest success rate vectors when used with social engineering in Australia.
 
 ## Why It's Strong Here
-- Australians still click shit they shouldn't.
+- Australians still click links they should not.
 - Many companies and tradies still run Windows with poor endpoint protection.
 - Government, banks, and "official looking" lures work extremely well.
 
