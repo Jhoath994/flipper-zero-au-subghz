@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/jeep/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/jeep/another_button.sub
-

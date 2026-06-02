@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/honda/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/honda/another_button.sub
-

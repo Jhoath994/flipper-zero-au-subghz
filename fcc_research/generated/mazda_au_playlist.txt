@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/mazda/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/mazda/another_button.sub
-

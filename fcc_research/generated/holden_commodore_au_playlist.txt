@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/holden_commodore/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/holden_commodore/another_button.sub
-

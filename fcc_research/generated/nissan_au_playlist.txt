@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/nissan/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/nissan/another_button.sub
-

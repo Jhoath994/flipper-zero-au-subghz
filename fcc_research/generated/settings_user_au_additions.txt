@@ -1,6 +1,6 @@
 # ========================================================
 # JESSE's AU Car Slayer - settings_user.txt additions
-# Generated: 2026-06-01T14:39:15.510253
+# Generated: 2026-06-02T15:48:04.889951
 # For RogueMaster, Momentum, Unleashed and similar custom firmwares
 # ========================================================
 
@@ -33,4 +33,3 @@ frequency = 434775000
 # After adding these, do a 'Read' on your own key fob first.
 # Then use the captured file as the base for any replay/rolljam attempts.
 # Never trust random .sub files from the internet for your own car.
-

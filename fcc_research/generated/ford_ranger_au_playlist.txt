@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/ford_ranger/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/ford_ranger/another_button.sub
-

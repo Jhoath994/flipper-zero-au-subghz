@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/isuzu_dmax/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/isuzu_dmax/another_button.sub
-

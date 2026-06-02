@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/subaru/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/subaru/another_button.sub
-

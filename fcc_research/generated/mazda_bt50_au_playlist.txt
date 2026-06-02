@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/mazda_bt50/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/mazda_bt50/another_button.sub
-

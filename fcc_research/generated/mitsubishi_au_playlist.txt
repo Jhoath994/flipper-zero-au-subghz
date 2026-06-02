@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/mitsubishi/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/mitsubishi/another_button.sub
-

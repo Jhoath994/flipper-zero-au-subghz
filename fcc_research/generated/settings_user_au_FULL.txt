@@ -1,79 +1,48 @@
 # ============================================================
 # JESSE's FULL AU 433.92 MHz settings_user.txt
-# Production-ready for RogueMaster / Momentum / Unleashed / Xtreme
-# Built for Australian locksmith & security research use
+# Generated: 2026-06-02T15:48:04.977632
+# For RogueMaster / Momentum / Unleashed / Xtreme
+# This is the heavy version - more opinionated, more useful.
 # ============================================================
 
 [subghz]
 
 # === CORE AUSTRALIAN 433.92 MHz BAND ===
 # These are the bread and butter frequencies for cars & gates in Australia.
-# 433.92 MHz is the ISM band standard for AU key fobs and gate remotes.
 frequency = 433820000
 frequency = 433920000
 frequency = 434020000
 frequency = 434420000
 
 # === EXTENDED AU GATE + OLDER CAR FREQS ===
-# Some ATA, B&D, Centurion/Elsema, and older imports use these
 frequency = 433075000
 frequency = 433775000
 frequency = 434775000
 
-# === CUSTOM PRESETS ===
-# The ASK vs FSK trap catches more people than anything else.
-# These custom presets are tuned for Australian 433.92 MHz conditions.
+# === CUSTOM PRESETS (THE IMPORTANT BIT) ===
+# The ASK vs FSK trap fucks more people than anything else.
+# Copy these or create custom presets in your firmware.
 
-# AU OOK Car Preset - Good for Toyota Hilux, older Ranger, Holden VF,
-# Triton, D-Max, BT-50, Great Wall, LDV, Suzuki, Honda, most gates
+# Good for Toyota Hilux, older Ranger, Holden VF, Triton, D-Max, BT-50, most gates
 Custom_preset_name = AU_OOK_Car
-Custom_preset_module = CC1101
 Custom_preset_data = 02 0D 0B 06 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
-# AU FSK Car Preset - Critical for Hyundai/Kia 2015+, later Rangers,
-# VW Amarok, some Jeeps, later Mazda smart keys
+# Critical for Hyundai/Kia 2015+, later Rangers, VW Amarok, some Jeeps
 Custom_preset_name = AU_FSK_Car
-Custom_preset_module = CC1101
 Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
-# === KEELOQ MANUFACTURER CODES ===
-# Common AU vehicle manufacturer codes for KeeLoq decoding.
-# These go in /ext/subghz/assets/keeloq_mfcodes_user
-#
-# Format: AABBCCDDEEFFAABB:X:BRAND_NAME
-# X = encryption method (0=fixed, 1=simple, 2=normal, 3=secure, 4=super)
-#
-# Toyota (Hilux B41TA/B42TA, Camry, Corolla): 7F00000
-# Ford (Ranger PX series, Everest): 3900000
-# Holden (VF Commodore): 3F00000
-# Mitsubishi (Triton MQ/MR): 5E00000
-# Nissan (Navara D23): 6B00000
-# Mazda (3, CX-5, BT-50): 5300000
-# Hyundai: 2A00000
-# Kia: 8A00000
-# Subaru: 7A00000
-# Isuzu (D-Max): 4D00000
-# VW (Amarok): 5700000
-# Great Wall (Cannon): 2A00000
-# LDV (T60): 3C00000
-# Suzuki (Jimny): 6D00000
-# Honda (CR-V): 4A00000
-# Jeep (Wrangler, Grand Cherokee): 7200000
+# JESSE's notes on the above:
+# - OOK version is tuned for narrow-ish bandwidth good for many simple key fobs.
+# - FSK version targets ~47-48kHz deviation which is commonly effective on Korean + VW group.
+# - Always start with the recommended preset in the brand notes before going custom.
 
-# === PRO TIPS ===
-# After adding these frequencies + presets, go outside.
-# Capture your own signals from 8-12 metres away.
-# Multiple presses with 2-3 second gaps. RAW first.
-# Then and only then start thinking about replay.
-#
-# Gates first (ATA, B&D, Centurion - fixed code OOK = easier).
-# Cars second (KeeLoq rolling = harder).
-#
-# For locksmith field work:
-# - Use the Sub-GHz Playlist plugin to cycle through gate codes
-# - CAME 12-bit brute force (4096 codes) for unknown CAME gates
-# - Princeton 24-bit samples for unknown ATA/Chinese remotes
-# - KeeLoq templates as starting points, then capture real fob
-#
-# This file is for educational / research / locksmith use on hardware you legally own.
+# === PROTOCOLS (optional but handy) ===
+# protocol = Princeton
+# protocol = CAME
+# protocol = Nice FLO
 
+# Pro move: After adding these frequencies + presets, go outside.
+# Capture your own shit from 8-12 metres away. Multiple presses. RAW first.
+# Then and only then start thinking about replay or more advanced work.
+
+# This file is for educational / research use on hardware you legally own.

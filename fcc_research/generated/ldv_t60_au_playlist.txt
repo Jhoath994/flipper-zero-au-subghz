@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/ldv_t60/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/ldv_t60/another_button.sub
-

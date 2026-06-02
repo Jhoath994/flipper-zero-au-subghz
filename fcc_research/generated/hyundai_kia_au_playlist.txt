@@ -11,4 +11,3 @@
 
 # /ext/subghz/car_hacks_au/hyundai_kia/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/hyundai_kia/another_button.sub
-
