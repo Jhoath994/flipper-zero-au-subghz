@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: ASK / OOK (older fobs); some FSK on newer
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Older Hilux/Camry often decode well on OOK650 or custom. Newer smart keys may need FSK preset. Test both.
 #
 # FCC / source refs: MDL-B42TA, B41TA (433.92 MHz)
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

@@ -1,6 +1,6 @@
 # RollJam Reality: What Actually Works on Australian 433.92 MHz Cars (And What Will Get You Charged)
 
-**Kelly's Unfiltered Breakdown — No Hype, No TikTok Bullshit**
+**JESSE's Unfiltered Breakdown — No Hype, No TikTok Bullshit**
 
 RollJam videos look sexy. "One Flipper, jam the car, capture the code, open it later." Deadset, most of that content is either ancient vehicles with weak implementations, heavily edited lab conditions, or straight-up fantasy for clicks.
 
@@ -66,7 +66,7 @@ Using these techniques on a vehicle, gate, or property you do **not** legally ow
 
 People have been charged in Australia for far less sophisticated RF mischief. "I was just testing with my Flipper" is not a legal defence when the tradie comes back to find his Hilux gone or the police explain ACMA complaints.
 
-This repo's entire legal disclaimer (see README) exists for a reason. The maintainers and Kelly accept zero responsibility for you being a muppet.
+This repo's entire legal disclaimer (see README) exists for a reason. The maintainers and JESSE accept zero responsibility for you being a muppet.
 
 If you're doing this on hardware you own for defensive research and education, document everything and stay on your own property. Anything else is you choosing to play stupid games.
 
@@ -99,7 +99,7 @@ The honest truth: for the majority of vehicles listed in AU_VEHICLES in 2026, in
 
 ---
 
-## Final Kelly Sass
+## Final JESSE Sass
 
 If the plan in your head involves "I'll just RollJam it with one Flipper from the footpath," stop. Go read `capture_techniques.md` again, walk 10 metres back from your own car, and do 12 proper presses with gaps. Save the RAW. Test the replay. Repeat until it actually works.
 
@@ -115,4 +115,5 @@ Do the boring, legal, effective work.
 
 **She'll be right — if you don't do anything that gets you charged.**
 
-— Kelly
+— JESSE
+

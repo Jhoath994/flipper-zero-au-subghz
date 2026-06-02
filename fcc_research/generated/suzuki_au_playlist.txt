@@ -1,4 +1,4 @@
-# Kelly's AU SUZUKI Playlist
+# JESSE's AU SUZUKI Playlist
 # Frequency: 433920000
 # Recommended preset: OOK650
 # Models: Jimny (2018+), Vitara, S-Cross, Swift (some AU years)...
@@ -11,3 +11,4 @@
 
 # /ext/subghz/car_hacks_au/suzuki/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/suzuki/another_button.sub
+

@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Mostly ASK/OOK reported
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Chinese utes flooding the AU market. Many use straightforward OOK key fobs.
 #
 # FCC / source refs: Great Wall / Haval 433.92 AU spec
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

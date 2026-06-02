@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Mix - many ASK on earlier, FSK later
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # BT-50 keys are very common in AU. Test OOK first on pre-2018 models.
 #
 # FCC / source refs: Mazda 433.92 modules
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

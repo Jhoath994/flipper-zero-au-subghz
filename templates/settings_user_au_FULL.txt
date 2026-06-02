@@ -1,5 +1,5 @@
 # ============================================================
-# Kelly's FULL AU 433.92 MHz settings_user.txt
+# JESSE's FULL AU 433.92 MHz settings_user.txt
 # Generated: 2026-06-01T08:21:31.888090
 # For RogueMaster / Momentum / Unleashed / Xtreme
 # This is the heavy version - more opinionated, more useful.
@@ -31,7 +31,7 @@ Custom_preset_data = 02 0D 0B 06 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00
 Custom_preset_name = AU_FSK_Car
 Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
-# Kelly's notes on the above:
+# JESSE's notes on the above:
 # - OOK version is tuned for narrow-ish bandwidth good for many simple key fobs.
 # - FSK version targets ~47-48kHz deviation which is commonly effective on Korean + VW group.
 # - Always start with the recommended preset in the brand notes before going custom.
@@ -46,3 +46,4 @@ Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00
 # Then and only then start thinking about replay or more advanced work.
 
 # This file is for educational / research use on hardware you legally own.
+

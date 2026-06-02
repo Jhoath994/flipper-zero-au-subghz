@@ -1,4 +1,4 @@
-# Kelly's AU VW_AMAROK Playlist
+# JESSE's AU VW_AMAROK Playlist
 # Frequency: 433920000
 # Recommended preset: 2FSKDev476
 # Models: Amarok (2H 2011-2022 AU), V6 models...
@@ -11,3 +11,4 @@
 
 # /ext/subghz/car_hacks_au/vw_amarok/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/vw_amarok/another_button.sub
+

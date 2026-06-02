@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Mix - many ASK, some FSK
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Test OOK first for most Mazda 3/CX-5 of that era. Some later ones went FSK.
 #
 # FCC / source refs: Various Mazda 433.92 modules
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

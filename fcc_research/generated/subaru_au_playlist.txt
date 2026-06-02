@@ -1,4 +1,4 @@
-# Kelly's AU SUBARU Playlist
+# JESSE's AU SUBARU Playlist
 # Frequency: 433920000
 # Recommended preset: OOK650
 # Models: Forester (SJ 2013-2018, SK 2018+), XV, Outback (AU variants)...
@@ -11,3 +11,4 @@
 
 # /ext/subghz/car_hacks_au/subaru/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/subaru/another_button.sub
+

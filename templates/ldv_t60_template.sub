@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: ASK/OOK dominant on most reported
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Budget Chinese ute with decent key fob implementation for subghz work.
 #
 # FCC / source refs: LDV 433.92 MHz
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

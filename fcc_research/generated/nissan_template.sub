@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Often ASK, some FSK
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Navara D23 is very common in AU. Start OOK, switch to FSK if no joy.
 #
 # FCC / source refs: Nissan 433.92 modules
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

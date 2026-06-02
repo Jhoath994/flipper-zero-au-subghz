@@ -1,6 +1,6 @@
 # Capture Techniques: The Distance Method for 433.92 AU Rolling Codes
 
-**Kelly's No-Bullshit Ultimate Guide**
+**JESSE's No-Bullshit Ultimate Guide**
 
 Look, mate. If you're standing 30cm from the car mashing the fob like it's going out of style and wondering why your Flipper captures are useless garbage that won't replay, this document is for you. The "away from the car" technique — 5 to 15 metres — is the single biggest practical improvement most people can make for real 433.92 MHz Australian vehicles.
 
@@ -122,7 +122,7 @@ Once you have a solid RAW file:
 
 ---
 
-## Final Kelly Real Talk
+## Final JESSE Real Talk
 
 The distance technique + RAW + multiple timed presses + immediate verification on your own hardware is 90% of winning at this. The other 10% is not being a muppet about presets.
 
@@ -138,4 +138,5 @@ Now stop reading and go capture something properly.
 
 **She'll be right — if you do it right.**
 
-— Kelly
+— JESSE
+

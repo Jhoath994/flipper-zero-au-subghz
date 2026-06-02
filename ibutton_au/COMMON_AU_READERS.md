@@ -44,7 +44,8 @@ This is real-world data from Australian tradies, depots, rural properties, and w
 
 Buy a pack of 10 RW1990s and keep them on you. They cost almost nothing.
 
-## Field Tip from Kelly
+## Field Tip from JESSE
 If you're on a job site or rural property and see an old blue or black iButton reader on a gate or truck — stop and test it. Half the time it's still using a factory or easily cloned ID.
 
 Always ask permission first, you fucking animal.
+

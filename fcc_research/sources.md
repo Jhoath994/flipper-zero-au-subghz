@@ -122,7 +122,7 @@ Special thanks to everyone who contributes verified captures with full metadata 
 
 ---
 
-## Final Note from Kelly
+## Final Note from JESSE
 
 The hype channels recycle the same five wrong or unverifiable files and pretend they're universal.
 
@@ -136,5 +136,6 @@ Now go read the capture guide, stand back from your own car, and make some files
 
 **Trace it or it doesn't exist here.**
 
-— Kelly
+— JESSE
 Verified Flipper Zero expert • No rules except the real ones • Australian 433.92 MHz specialist
+

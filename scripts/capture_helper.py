@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Kelly's Capture Helper - Practical organiser for YOUR verified Sub-GHz captures.
+JESSE's Capture Helper - Practical organiser for YOUR verified Sub-GHz captures.
 
 flipper-zero-au-subghz
 
@@ -18,7 +18,7 @@ This script is file hygiene only. It does NOT transmit, does NOT replay, does NO
 generate codes, does NOT do anything illegal. It just helps you keep your own
 captures organised like a pro.
 
-Kelly rules:
+JESSE rules:
 - Only ever run this on captures you made yourself from hardware YOU OWN.
 - Always verify replay works on the actual vehicle before trusting the file.
 - If the header validation screams at you, go back and re-capture properly.
@@ -41,7 +41,7 @@ from typing import Optional, List, Dict, Tuple
 
 
 # ============================================================================
-# KELLY'S .sub VALIDATION
+# JESSE'S .sub VALIDATION
 # ============================================================================
 # We only check the basics that every real Flipper SubGhz RAW file must have.
 # This catches the most common fuckups (empty files, wrong exports, text notes
@@ -61,7 +61,7 @@ RECOMMENDED_MARKERS = [
 
 def validate_sub_file(filepath: Path, strict: bool = False) -> Tuple[bool, List[str]]:
     """
-    Kelly's quick and dirty .sub header validator.
+    JESSE's quick and dirty .sub header validator.
 
     Returns (is_valid, list_of_warnings_or_errors)
 
@@ -136,7 +136,7 @@ def build_new_filename(
     preset: Optional[str] = None,
 ) -> str:
     """
-    Kelly's recommended naming scheme for captures.
+    JESSE's recommended naming scheme for captures.
 
     Example outputs:
         toyota_2012_lock_2026-05-31.sub
@@ -238,7 +238,7 @@ def process_capture(
 
     Returns a dict with results or None on fatal failure.
     """
-    print(f"\n[Kelly] Processing: {input_path}")
+    print(f"\n[JESSE] Processing: {input_path}")
 
     is_valid, issues = validate_sub_file(input_path, strict=strict_validation)
 
@@ -247,7 +247,7 @@ def process_capture(
         print(f"  [{prefix}] {issue}")
 
     if not is_valid and strict_validation:
-        print("  [Kelly] Strict mode: refusing to touch this file until you fix the header. Re-capture it properly, mate.")
+        print("  [JESSE] Strict mode: refusing to touch this file until you fix the header. Re-capture it properly, mate.")
         return None
 
     # Try to auto-detect preset for naming if user didn't supply one
@@ -271,7 +271,7 @@ def process_capture(
 
     if dest_path.exists():
         print(f"  [WARNING] Destination already exists: {dest_path}")
-        print("  [Kelly] Not overwriting. Rename the existing one first or use a more specific --button/--date.")
+        print("  [JESSE] Not overwriting. Rename the existing one first or use a more specific --button/--date.")
         return None
 
     playlist_entry = f"/ext/subghz/car_hacks_au/{target_folder_name}/{new_filename}"
@@ -295,7 +295,7 @@ def process_capture(
     try:
         shutil.move(str(input_path), str(dest_path))
         print(f"  [+] Moved to: {dest_path}")
-        print(f"  [Kelly] Nice. One clean capture organised.")
+        print(f"  [JESSE] Nice. One clean capture organised.")
     except Exception as e:
         print(f"  [ERROR] Move failed: {e}")
         return None
@@ -305,7 +305,7 @@ def process_capture(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Kelly's Capture Helper - Rename, validate, and organise your own Flipper Sub-GHz captures into car_hacks_au/",
+        description="JESSE's Capture Helper - Rename, validate, and organise your own Flipper Sub-GHz captures into car_hacks_au/",
         epilog="Only use on captures from hardware you legally own. This tool touches files only. No radio bullshit."
     )
     parser.add_argument("--input", type=str, help="Single .sub file to process")
@@ -333,20 +333,20 @@ def main():
     if args.input:
         p = Path(args.input).resolve()
         if not p.exists():
-            print(f"[Kelly] ERROR: Input file not found: {p}")
+            print(f"[JESSE] ERROR: Input file not found: {p}")
             return
         files_to_process.append(p)
 
     if args.batch_dir:
         d = Path(args.batch_dir).resolve()
         if not d.is_dir():
-            print(f"[Kelly] ERROR: Batch dir not found or not a directory: {d}")
+            print(f"[JESSE] ERROR: Batch dir not found or not a directory: {d}")
             return
         sub_files = sorted(d.glob("*.sub"))
         if not sub_files:
-            print(f"[Kelly] No .sub files found in {d}")
+            print(f"[JESSE] No .sub files found in {d}")
             return
-        print(f"[Kelly] Found {len(sub_files)} .sub files in batch dir.")
+        print(f"[JESSE] Found {len(sub_files)} .sub files in batch dir.")
         files_to_process.extend(sub_files)
 
     results = []
@@ -368,7 +368,7 @@ def main():
     # Summary + optional playlist file append
     if results:
         print("\n" + "=" * 60)
-        print("[Kelly] SUMMARY — Playlist entries ready to copy:")
+        print("[JESSE] SUMMARY — Playlist entries ready to copy:")
         print("=" * 60)
         for r in results:
             print(r["playlist_entry"])
@@ -382,11 +382,12 @@ def main():
                     plf.write(r["playlist_entry"] + "\n")
             print(f"\n[+] Appended {len(results)} entries to {pl_path}")
 
-        print("\n[Kelly] All done, legend. Now go edit your actual playlist .txt and test replay on your own car.")
+        print("\n[JESSE] All done, legend. Now go edit your actual playlist .txt and test replay on your own car.")
         print("Remember: if it didn't work on the vehicle you captured it from, the file is not ready for anything else.")
     else:
-        print("\n[Kelly] Nothing was processed successfully. Fix the issues above and try again.")
+        print("\n[JESSE] Nothing was processed successfully. Fix the issues above and try again.")
 
 
 if __name__ == "__main__":
     main()
+

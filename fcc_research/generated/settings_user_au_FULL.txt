@@ -1,5 +1,5 @@
 # ============================================================
-# Kelly's FULL AU 433.92 MHz settings_user.txt
+# JESSE's FULL AU 433.92 MHz settings_user.txt
 # Production-ready for RogueMaster / Momentum / Unleashed / Xtreme
 # Built for Australian locksmith & security research use
 # ============================================================
@@ -76,3 +76,4 @@ Custom_preset_data = 02 0D 0B 0A 08 08 15 17 00 00 00 00 00 00 00 00 00 00 00 00
 # - KeeLoq templates as starting points, then capture real fob
 #
 # This file is for educational / research / locksmith use on hardware you legally own.
+

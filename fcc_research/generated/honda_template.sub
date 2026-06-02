@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Primarily ASK/OOK
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Honda keys in this range are usually solid OOK performers.
 #
 # FCC / source refs: Honda 433.92 AU market
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Often 2FSK (VW group)
 # Recommended starting preset: 2FSKDev476
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # VW group keys frequently FSK. OOK preset will miss them.
 #
 # FCC / source refs: VW 433 MHz AU spec
@@ -29,3 +29,4 @@ Preset: 2FSKDev476
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

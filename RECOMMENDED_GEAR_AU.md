@@ -23,7 +23,7 @@
 - Local electronics stores for SD cards and cables.
 - Avoid anything that looks like "car hacking tools" sold with "no questions asked" marketing — it's usually overpriced garbage.
 
-## Kelly's Loadout (Typical)
+## JESSE's Loadout (Typical)
 - Flipper in a small pouch
 - 10x T5577
 - 10x RW1990
@@ -32,3 +32,4 @@
 - Small notebook + pen (old school but effective)
 
 Travel light, test smart, and always have permission.
+

@@ -7,7 +7,7 @@
 - BT-50 UP/UR (2011-2020)
 - BT-50 TF (2020+)
 
-## Kelly's Take
+## JESSE's Take
 One of the most common utes on Australian roads. Shares a lot of DNA with the Ranger in some years, so expect similar behaviour.
 
 Earlier BT-50s are generally more cooperative with standard OOK. Later ones can shift toward FSK.
@@ -20,3 +20,4 @@ Earlier BT-50s are generally more cooperative with standard OOK. Later ones can 
 **Your captures only go in this folder.**
 
 Do not be a cunt.
+

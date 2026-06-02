@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Many 2FSK on Korean brands in this period
 # Recommended starting preset: 2FSKDev476
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Hyundai/Kia smart keys from ~2015+ very commonly use FSK. OOK preset will fail hard. Use 2FSK or capture raw and analyze.
 #
 # FCC / source refs: Hyundai/Kia 433.92 modules (various)
@@ -29,3 +29,4 @@ Preset: 2FSKDev476
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

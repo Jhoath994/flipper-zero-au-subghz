@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Often 2FSK on later models, ASK on early
 # Recommended starting preset: 2FSKDev476
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Many 2018+ Ranger fobs are FSK. Using OOK preset on FSK signal = garbage. Start with 2FSKDev476 or capture and let Flipper suggest.
 #
 # FCC / source refs: Various Continental / Hella 433/434 MHz modules for AU
@@ -29,3 +29,4 @@ Preset: 2FSKDev476
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

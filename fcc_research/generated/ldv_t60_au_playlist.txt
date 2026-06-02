@@ -1,4 +1,4 @@
-# Kelly's AU LDV_T60 Playlist
+# JESSE's AU LDV_T60 Playlist
 # Frequency: 433920000
 # Recommended preset: OOK650
 # Models: T60 (2017+ AU), T60 Trailrider, Luxe...
@@ -11,3 +11,4 @@
 
 # /ext/subghz/car_hacks_au/ldv_t60/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/ldv_t60/another_button.sub
+

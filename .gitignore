@@ -1,4 +1,4 @@
-# Kelly's .gitignore for flipper-zero-au-subghz
+# JESSE's .gitignore for flipper-zero-au-subghz
 #
 # This repo is for education + your own verified captures on hardware you own.
 # Real key fob/gate captures often contain sensitive timing data that some people
@@ -86,11 +86,11 @@ desktop.ini
 # Optional: generated outputs
 # If you regenerate a lot and don't want the .txt/.sub templates in git,
 # uncomment the next line. Most people keep them because they are useful
-# skeletons with Kelly's comments baked in.
+# skeletons with JESSE's comments baked in.
 # fcc_research/generated/
 
 # ============================================================================
-# Notes from Kelly
+# Notes from JESSE
 # ============================================================================
 # - The car_hacks_au/ folders are documented as "for YOUR captures only".
 #   The .gitignore above makes that safer for public forks.
@@ -103,4 +103,5 @@ desktop.ini
 # into a public git history by accident.
 #
 # She'll be right.
-# — Kelly
+# — JESSE
+

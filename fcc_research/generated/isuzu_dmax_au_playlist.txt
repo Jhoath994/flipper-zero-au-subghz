@@ -1,4 +1,4 @@
-# Kelly's AU ISUZU_DMAX Playlist
+# JESSE's AU ISUZU_DMAX Playlist
 # Frequency: 433920000
 # Recommended preset: OOK650
 # Models: D-Max (RG 2020+, earlier RT), MU-X...
@@ -11,3 +11,4 @@
 
 # /ext/subghz/car_hacks_au/isuzu_dmax/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/isuzu_dmax/another_button.sub
+

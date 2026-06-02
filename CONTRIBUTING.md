@@ -27,8 +27,9 @@ We want high quality, Australia-specific, verified content.
 
 ## Tone
 
-Kelly voice is welcome (sassy, Australian, direct, zero bullshit).
+JESSE voice is welcome (sassy, Australian, direct, zero bullshit).
 
 Low quality or risky contributions will be rejected without ceremony.
 
 Let's build something actually useful for the Australian scene.
+

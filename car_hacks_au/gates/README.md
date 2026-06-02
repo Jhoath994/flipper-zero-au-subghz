@@ -1,6 +1,6 @@
-# Gates, Garages & 433.92 MHz Openers — Kelly's Verified AU Training Targets
+# Gates, Garages & 433.92 MHz Openers — JESSE's Verified AU Training Targets
 
-**"Gates first, mate. Cars are fucken hard. Gates are where you learn the actual workflow without wanting to neck yourself." — Kelly**
+**"Gates first, mate. Cars are fucken hard. Gates are where you learn the actual workflow without wanting to neck yourself." — JESSE**
 
 This folder is for **your own gate/garage remote captures only**. Nothing else belongs here.
 
@@ -109,7 +109,7 @@ These are the targets where you can actually build useful personal libraries and
 - "I was just testing with my Flipper" is not a defence when it's your neighbour's roller door or the servo's gate.
 - Jamming is especially illegal and a great way to get ACMA and police attention fast.
 - Even on simple fixed-code gates, replaying someone else's signal without permission is not a game.
-- The repo maintainers and Kelly take **zero responsibility** for you being a fuckwit and getting charged.
+- The repo maintainers and JESSE take **zero responsibility** for you being a fuckwit and getting charged.
 
 If you're here looking to open gates that aren't yours: **fuck off**. Close the folder. This is not for you.
 
@@ -129,5 +129,6 @@ Once you've got a few gates working reliably, *then* go stand 10 metres back fro
 
 She'll be right.
 
-— Kelly
+— JESSE
 Verified only • Australian 433.92 specialist • No rules except the real ones • Gates before cars, always
+

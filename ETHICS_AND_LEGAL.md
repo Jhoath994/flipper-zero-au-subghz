@@ -27,8 +27,9 @@ Penalties can include fines and jail time. "I saw it on GitHub" is not a defence
 - Research and education (with ethics approval where required).
 - Defensive work: understanding how easy certain systems are to attack so you can recommend better ones.
 
-## Kelly's Rule
+## JESSE's Rule
 
 If you have to ask "is this legal?", the answer is almost always "no, don't do it".
 
 Do the right thing or get the fuck out of the community.
+

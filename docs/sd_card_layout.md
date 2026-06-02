@@ -1,4 +1,4 @@
-# Kelly's Recommended Flipper SD Card Layout for AU Car Work
+# JESSE's Recommended Flipper SD Card Layout for AU Car Work
 
 This is how I organise my shit so I can actually find things when I'm standing in a carpark at 11pm.
 
@@ -59,3 +59,4 @@ This is how I organise my shit so I can actually find things when I'm standing i
 This layout has saved me hours of swearing at my Flipper.
 
 Now go outside and capture something properly.
+

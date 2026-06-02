@@ -1,4 +1,4 @@
-# Kelly's AU FORD_RANGER Playlist
+# JESSE's AU FORD_RANGER Playlist
 # Frequency: 433920000
 # Recommended preset: 2FSKDev476
 # Models: Ranger PX/PX2/PX3 (2011-2024 AU market), Everest (some shared)...
@@ -11,3 +11,4 @@
 
 # /ext/subghz/car_hacks_au/ford_ranger/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/ford_ranger/another_button.sub
+

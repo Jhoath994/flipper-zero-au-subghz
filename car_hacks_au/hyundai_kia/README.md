@@ -1,6 +1,6 @@
-# Hyundai / Kia — Kelly's Verified AU 433.92 MHz Notes
+# Hyundai / Kia — JESSE's Verified AU 433.92 MHz Notes
 
-**"If it ain't in the AU_VEHICLES database from fcc_au_car_data.py, it ain't verified. No bullshit, no made-up codes." — Kelly**
+**"If it ain't in the AU_VEHICLES database from fcc_au_car_data.py, it ain't verified. No bullshit, no made-up codes." — JESSE**
 
 This folder is for **your own Hyundai or Kia** captures only. Nothing else belongs here.
 
@@ -41,11 +41,11 @@ These are the ones with confirmed 433.92 MHz presence in Australian market data 
 **Deviation notes from the verified database:**
 "Hyundai/Kia smart keys from ~2015+ very commonly use FSK. OOK preset will fail hard. Use 2FSK or capture raw and analyze."
 
-**Pro tip from Kelly**: These are harder targets overall. Many use rolling codes + challenge-response elements on top of the FSK modulation.
+**Pro tip from JESSE**: These are harder targets overall. Many use rolling codes + challenge-response elements on top of the FSK modulation.
 
 ---
 
-## Real Capture Advice (Kelly Method — Do This or Waste Your Time)
+## Real Capture Advice (JESSE Method — Do This or Waste Your Time)
 
 1. **Stand 5-15 metres away** from the vehicle. Closer is often worse — signal saturation fucks your capture.
 2. **Multiple button presses with proper gaps**: Lock, wait 2-3 seconds, lock again. Do 8-12 presses minimum. For rolling code vehicles you want a sequence of consecutive codes.
@@ -94,7 +94,7 @@ No magic files exist. Anyone claiming easy unlocks on modern Korean stuff is eit
 - Criminal Code, ACMA radiocommunications laws, theft/break-and-enter statutes all apply.
 - "I was just testing with my Flipper" is not a defence when it's your neighbour's i30 or the family Tucson.
 - Rolling codes + challenge-response exist specifically to stop exactly this shit. Success rates are low on modern examples anyway.
-- The repo maintainers and Kelly take **zero responsibility** for you being a fuckwit and getting charged.
+- The repo maintainers and JESSE take **zero responsibility** for you being a fuckwit and getting charged.
 
 If you're here looking to steal Korean cars: **fuck off**. Close the folder. This is not for you.
 
@@ -108,5 +108,6 @@ If you own the vehicle, test only on it, stay legal, and learn how the real syst
 
 Now stop reading and go capture your own i30 or Sportage properly at 10 metres. **Start with 2FSKDev476.** Multiple presses. RAW first. This one punishes the wrong preset hard.
 
-— Kelly
+— JESSE
 Verified only • Australian 433.92 specialist • No rules except the real ones
+

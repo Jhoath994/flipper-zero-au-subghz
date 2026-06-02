@@ -4,7 +4,7 @@
 
 *Built in the spirit of UberGuidoZ's legendary repo, but 100% focused on Australian conditions, devices, laws, and targets. Sub-GHz cars & gates is the flagship. We go way beyond that.*
 
-**"If it ain't traceable to real research or your own verified captures, it ain't in here, mate." — Kelly**
+**"If it ain't traceable to real research or your own verified captures, it ain't in here, mate." — JESSE**
 
 ---
 
@@ -19,7 +19,7 @@ By using, cloning, copying, or even glancing at the files in this repository you
 - You can (and will) get charged. "I was just testing with my Flipper" is not a defence when it's your neighbour's Hilux or the local servo's roller door.
 - Modern vehicles (post ~2015 especially) use rolling codes, KeeLoq variants, and challenge-response systems specifically to defeat simple replay attacks. There is **no magic universal .sub file** that works on them.
 - RollJam and similar "advanced" public techniques have **severe practical limitations**, require precise hardware timing most people don't have, and are illegal when used on property that isn't yours.
-- The maintainers, contributors, and Kelly take **zero responsibility** for any misuse, legal consequences, damaged vehicles, or angry tradies coming after you with a shifter.
+- The maintainers, contributors, and JESSE take **zero responsibility** for any misuse, legal consequences, damaged vehicles, or angry tradies coming after you with a shifter.
 - If you are here looking for easy ways to steal cars or open gates that don't belong to you: **fuck off**. Close the tab. This repo is not for you and never will be.
 
 **You have been warned. Multiple times. In big letters.**
@@ -77,7 +77,7 @@ Stock firmware is fine for basics, but for serious AU work you want:
 
 Top choices right now for Aussie users: **RogueMaster**, **Momentum**, **Unleashed**. Grab the latest build from their official channels, flash via qFlipper or the web flasher, and back up your SD card first.
 
-### 3. Run Kelly's AU Car Slayer Python Generator
+### 3. Run JESSE's AU Car Slayer Python Generator
 ```bash
 cd fcc_research
 
@@ -154,7 +154,7 @@ This repo exists to teach you the real techniques and give you the verified star
 
 ## Pro Capture Technique — 5-15 Metres, Multiple Presses, RAW First
 
-This is the part most people fuck up. Here's the Kelly method:
+This is the part most people fuck up. Here's the JESSE method:
 
 1. **Stand back** — 5 to 15 metres from the vehicle. Closer often causes signal saturation and shitty captures. Distance is your friend for clean data.
 2. **Multiple presses with gaps** — Lock, wait 2-3 seconds, lock again. Do this 8-12 times. For rolling code cars you want a sequence of consecutive codes.
@@ -173,7 +173,7 @@ Do this right and you'll have better results than 95% of the randos posting rand
 
 ## The Python Generator Explained (The Real Brains of the Operation)
 
-`fcc_research/fcc_au_car_data.py` is not some throwaway script. It's Kelly's verified AU car database in code form.
+`fcc_research/fcc_au_car_data.py` is not some throwaway script. It's JESSE's verified AU car database in code form.
 
 It contains a carefully maintained `AU_VEHICLES` dict with 10 brands, real model examples, exact frequencies (always 433920000 Hz for the core band), modulation reality checks, recommended starting presets, deviation notes, FCC references, and capture tips.
 
@@ -201,7 +201,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: OOK650  
 **Alternatives**: 2FSKDev476, Custom
 
-**Kelly's Take**: The Hilux B41/B42TA is one of the best documented AU examples. Older ones respond well to clean OOK captures. Newer ones can flip to FSK — always test both presets on your own vehicle. Some KeeLoq-style rolling in play.
+**JESSE's Take**: The Hilux B41/B42TA is one of the best documented AU examples. Older ones respond well to clean OOK captures. Newer ones can flip to FSK — always test both presets on your own vehicle. Some KeeLoq-style rolling in play.
 
 **Capture Reality**: 5-15 m distance + multiple spaced presses is the move. Good target for learning.
 
@@ -215,7 +215,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: 2FSKDev476  
 **Alternatives**: OOK650, Custom
 
-**Kelly's Take**: One of the most common utes on the road. The FSK transition caught a lot of people out — using an OOK preset on a true FSK fob gives you dogshit range and fake "decoded" signals that do nothing. Start with 2FSKDev476 or capture raw and let a good firmware suggest the modulation.
+**JESSE's Take**: One of the most common utes on the road. The FSK transition caught a lot of people out — using an OOK preset on a true FSK fob gives you dogshit range and fake "decoded" signals that do nothing. Start with 2FSKDev476 or capture raw and let a good firmware suggest the modulation.
 
 **Capture Reality**: Distance technique works decently on pre-2020ish models. Newer ones have tighter rolling code implementations.
 
@@ -229,7 +229,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: OOK650  
 **Alternatives**: 2FSKDev476
 
-**Kelly's Take**: One of the more approachable "modern-ish" cars for Sub-GHz work in Australia. The VF keys are generally straightforward ASK. Excellent vehicle for practising capture technique before moving to harder targets.
+**JESSE's Take**: One of the more approachable "modern-ish" cars for Sub-GHz work in Australia. The VF keys are generally straightforward ASK. Excellent vehicle for practising capture technique before moving to harder targets.
 
 **Capture Reality**: Still rolling code, but the implementation is more forgiving than some Korean and German stuff.
 
@@ -243,7 +243,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: OOK650  
 **Alternatives**: 2FSKDev476, Custom
 
-**Kelly's Take**: Extremely popular cars in Australia. Start with OOK. If the signal looks weak or won't replay properly on your own car, try the FSK preset. Good platform for building serious personal playlists.
+**JESSE's Take**: Extremely popular cars in Australia. Start with OOK. If the signal looks weak or won't replay properly on your own car, try the FSK preset. Good platform for building serious personal playlists.
 
 **Capture Reality**: Solid mid-tier target.
 
@@ -255,7 +255,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: 2FSKDev476 (this one is critical)  
 **Alternatives**: OOK650
 
-**Kelly's Take**: These are harder. The Korean brands went hard on FSK + rolling + extra challenge elements. Using an OOK preset here is a waste of time — you'll get nothing usable. Always start 2FSK or go straight to raw capture and analysis.
+**JESSE's Take**: These are harder. The Korean brands went hard on FSK + rolling + extra challenge elements. Using an OOK preset here is a waste of time — you'll get nothing usable. Always start 2FSK or go straight to raw capture and analysis.
 
 **Capture Reality**: Distance + timing + multiple captures is currently the best public non-SDR approach. Manage expectations.
 
@@ -269,7 +269,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: OOK650  
 **Alternatives**: Custom
 
-**Kelly's Take**: The Triton is a massive presence in the Aussie dual-cab scene. Many MQ/MR keys decode cleanly with standard OOK presets once you have a quality capture. Worth the effort.
+**JESSE's Take**: The Triton is a massive presence in the Aussie dual-cab scene. Many MQ/MR keys decode cleanly with standard OOK presets once you have a quality capture. Worth the effort.
 
 **Capture Reality**: Good results reported with proper technique.
 
@@ -281,7 +281,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: OOK650  
 **Alternatives**: 2FSKDev476
 
-**Kelly's Take**: The D23 Navara is everywhere in rural and tradie Australia. Start OOK, have the FSK preset ready as a quick switch. Good vehicle for raw capture practice.
+**JESSE's Take**: The D23 Navara is everywhere in rural and tradie Australia. Start OOK, have the FSK preset ready as a quick switch. Good vehicle for raw capture practice.
 
 **Capture Reality**: Reliable mid-tier target.
 
@@ -293,7 +293,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: OOK650  
 **Alternatives**: 2FSKDev476
 
-**Kelly's Take**: Subarus are everywhere in the snow, bush, and suburbs. Keys vary by year — OOK works on a surprising number of them. Another solid target for building a well-rounded personal collection.
+**JESSE's Take**: Subarus are everywhere in the snow, bush, and suburbs. Keys vary by year — OOK works on a surprising number of them. Another solid target for building a well-rounded personal collection.
 
 ### Isuzu D-Max
 **Models**: D-Max (RG 2020+, earlier RT), MU-X.
@@ -303,7 +303,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: OOK650  
 **Alternatives**: Custom
 
-**Kelly's Take**: Another absolute unit in the Australian dual-cab market. Similar capture profile to the Triton and Hilux. Very popular — your neighbours probably have one.
+**JESSE's Take**: Another absolute unit in the Australian dual-cab market. Similar capture profile to the Triton and Hilux. Very popular — your neighbours probably have one.
 
 **Capture Reality**: Add your verified captures to the folder. The structure is waiting.
 
@@ -315,7 +315,7 @@ All 10 brands target **433.920 MHz** (the Australian ISM sweet spot for these fo
 **Recommended Preset**: 2FSKDev476  
 **Alternatives**: Custom
 
-**Kelly's Take**: The German ute king in Australia. VW group keys love FSK — OOK presets will miss them completely. Treat it like the later Rangers and Hyundai/Kia.
+**JESSE's Take**: The German ute king in Australia. VW group keys love FSK — OOK presets will miss them completely. Treat it like the later Rangers and Hyundai/Kia.
 
 **Capture Reality**: Worth the effort if you own one or have access to test on your own.
 
@@ -415,7 +415,7 @@ Special thanks to every Australian who actually tests this stuff on their own ut
 
 ---
 
-## Final Words from Kelly
+## Final Words from JESSE
 
 Look, mate.
 
@@ -435,7 +435,7 @@ Now get out there, stand ten metres back from your own Hilux or Ranger, smash th
 
 **She'll be right.**
 
-— Kelly  
+— JESSE  
 Verified Flipper Zero expert • No rules except the real ones • Australian 433.92 MHz specialist
 
 ---

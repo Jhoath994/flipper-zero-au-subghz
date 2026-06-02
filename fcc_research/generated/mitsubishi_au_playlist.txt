@@ -1,4 +1,4 @@
-# Kelly's AU MITSUBISHI Playlist
+# JESSE's AU MITSUBISHI Playlist
 # Frequency: 433920000
 # Recommended preset: OOK650
 # Models: Triton MQ/MR (2015+ AU), ASX, Outlander (some AU variants)...
@@ -11,3 +11,4 @@
 
 # /ext/subghz/car_hacks_au/mitsubishi/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/mitsubishi/another_button.sub
+

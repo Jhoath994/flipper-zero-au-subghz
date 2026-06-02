@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: ASK/OOK on many Triton fobs
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Triton MQ/MR keys are frequently reported as decodable with standard OOK presets after good capture.
 #
 # FCC / source refs: Mitsubishi 433.92
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

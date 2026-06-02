@@ -1,6 +1,6 @@
-# Mitsubishi — Kelly's Verified AU 433.92 MHz Notes
+# Mitsubishi — JESSE's Verified AU 433.92 MHz Notes
 
-**"If it ain't in the AU_VEHICLES database from fcc_au_car_data.py, it ain't verified. No bullshit, no made-up codes." — Kelly**
+**"If it ain't in the AU_VEHICLES database from fcc_au_car_data.py, it ain't verified. No bullshit, no made-up codes." — JESSE**
 
 This folder is for **your own Mitsubishi** captures only. Nothing else belongs here.
 
@@ -41,7 +41,7 @@ Many MQ/MR keys are frequently reported as decodable with standard OOK presets a
 
 ---
 
-## Real Capture Advice (Kelly Method — Do This or Waste Your Time)
+## Real Capture Advice (JESSE Method — Do This or Waste Your Time)
 
 1. **Stand 5-15 metres away** from the vehicle. Closer is often worse — signal saturation fucks your capture.
 2. **Multiple button presses with proper gaps**: Lock, wait 2-3 seconds, lock again. Do 8-12 presses minimum. For rolling code vehicles you want a sequence of consecutive codes.
@@ -88,7 +88,7 @@ This folder is **not** a dumping ground for Telegram/YouTube garbage files with 
 - Criminal Code, ACMA radiocommunications laws, theft/break-and-enter statutes all apply.
 - "I was just testing with my Flipper" is not a defence when it's your neighbour's Triton or the work ute.
 - Rolling codes exist specifically to stop exactly this shit. Most modern replays fail fast anyway.
-- The repo maintainers and Kelly take **zero responsibility** for you being a fuckwit and getting charged.
+- The repo maintainers and JESSE take **zero responsibility** for you being a fuckwit and getting charged.
 
 If you're here looking to steal Mitsubishis: **fuck off**. Close the folder. This is not for you.
 
@@ -102,5 +102,6 @@ If you own the vehicle, test only on it, stay legal, and learn how the real syst
 
 Now stop reading and go capture your own Triton properly at 10 metres. OOK650 is your friend here. Multiple presses. RAW first.
 
-— Kelly
+— JESSE
 Verified only • Australian 433.92 specialist • No rules except the real ones
+

@@ -109,7 +109,7 @@ For desktop: Search for current maintained URH forks and KAT releases. The space
 
 ---
 
-## Final Kelly Reality Check
+## Final JESSE Reality Check
 
 These tools will show you exactly how good (or how dogshit) your captures actually are. They will reveal pulse jitter, modulation errors, and timing problems that the stock Sub-GHz app hides.
 
@@ -125,4 +125,5 @@ That's the only pipeline that produces real results.
 
 **Now go feed some actual good captures into ProtoPirate instead of random Telegram trash.**
 
-— Kelly
+— JESSE
+

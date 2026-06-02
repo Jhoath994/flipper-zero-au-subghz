@@ -6,7 +6,7 @@ Version: 1
 # Common modulation: Mix, many ASK on older, FSK later
 # Recommended starting preset: OOK650
 # 
-# DEVIATION / PRESET WARNING (Kelly says read this):
+# DEVIATION / PRESET WARNING (JESSE says read this):
 # Forester keys vary by year. OOK works on plenty of them.
 #
 # FCC / source refs: Subaru 433.92
@@ -29,3 +29,4 @@ Preset: OOK650
 
 # Paste your captured RAW_Data lines below after a real capture
 # RAW_Data: <your data here>
+

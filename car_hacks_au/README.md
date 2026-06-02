@@ -77,7 +77,7 @@ The `.gitignore` at repo root deliberately makes it hard to accidentally commit 
 
 Using any technique, file, frequency, or knowledge from this repository against a vehicle or gate you do not own is illegal in Australia. Criminal Code. ACMA radiocommunications offences. Theft/break-and-enter statutes.
 
-The repo, the generator, the scripts, Kelly, and every contributor accept zero responsibility for you being a fuckwit.
+The repo, the generator, the scripts, JESSE, and every contributor accept zero responsibility for you being a fuckwit.
 
 If you're here to steal cars: fuck off. This structure is not for you.
 
@@ -112,7 +112,7 @@ Regenerate whenever you extend the database with new verified models.
 
 ---
 
-## Final Kelly Words on This Folder
+## Final JESSE Words on This Folder
 
 This `car_hacks_au/` layout is the single best thing you can do for your own long-term sanity once you start taking Sub-GHz seriously in Australia.
 
@@ -128,5 +128,6 @@ Multiple presses. RAW. Verify on the vehicle. Organise with the helper.
 
 **She'll be right.**
 
-— Kelly
+— JESSE
 Verified only • Australian 433.92 specialist • No rules except the real ones
+

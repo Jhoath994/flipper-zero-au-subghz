@@ -1,4 +1,4 @@
-# Kelly's AU MAZDA Playlist
+# JESSE's AU MAZDA Playlist
 # Frequency: 433920000
 # Recommended preset: OOK650
 # Models: Mazda 3 (BM/BN 2014-2018 AU), CX-5 (KE/GH 2012-2017)...
@@ -11,3 +11,4 @@
 
 # /ext/subghz/car_hacks_au/mazda/your_actual_capture.sub
 # /ext/subghz/car_hacks_au/mazda/another_button.sub
+

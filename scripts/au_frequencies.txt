@@ -1,4 +1,4 @@
-# Kelly's Verified Australian 433.92 MHz Sub-GHz Frequencies
+# JESSE's Verified Australian 433.92 MHz Sub-GHz Frequencies
 # flipper-zero-au-subghz
 #
 # Simple reference export pulled straight from the AU_VEHICLES database
@@ -37,7 +37,7 @@
 434775000   # 434.775 MHz
 
 # ============================================================================
-# KELLY NOTES
+# JESSE NOTES
 # ============================================================================
 # - Always start with 433920000 + the recommended preset from the brand
 #   entry in fcc_au_car_data.py (OOK650 vs 2FSKDev476 is the big one).
@@ -52,4 +52,5 @@
 # on real cars, contribute it back to the AU_VEHICLES dict with receipts.
 #
 # She'll be right when you use the right frequencies on your own gear.
-# — Kelly
+# — JESSE
+
