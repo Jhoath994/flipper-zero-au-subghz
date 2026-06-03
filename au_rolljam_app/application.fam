@@ -1,0 +1,12 @@
+App(
+    appid="au_rolljam",
+    name="AU RollJam",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="au_rolljam_app",
+    requires=["subghz","gui","storage"],
+    stack_size=4 * 1024,
+    order=12,
+    # fap_icon="images/au_rolljam_10px.png",
+    fap_category="Sub-GHz",
+    # fap_icon_assets="images",
+)
